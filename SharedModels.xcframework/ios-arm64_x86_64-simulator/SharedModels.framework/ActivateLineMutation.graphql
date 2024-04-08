@@ -1,0 +1,11 @@
+#import "Fragments/LineFragment.graphql"
+
+mutation ActivateLine($activateLineInput: ActivateLineInput!) {
+    activateLine(input: $activateLineInput) {
+        success
+        message
+        line {
+            ...LineFragment
+        }
+   }
+}

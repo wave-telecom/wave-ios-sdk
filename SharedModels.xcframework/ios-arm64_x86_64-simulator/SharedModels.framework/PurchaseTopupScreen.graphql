@@ -1,0 +1,13 @@
+#import "../Fragments/CatalogProductFragment.graphql"
+
+query PurchaseTopupScreen($lineId: String!) {
+    purchaseTopupScreen(lineId: $lineId) {
+        currentTopups {
+            unitType
+            unitAvailableAmount
+        }
+        catalogProducts {
+            ...CatalogProductFragment
+        }
+    }
+}

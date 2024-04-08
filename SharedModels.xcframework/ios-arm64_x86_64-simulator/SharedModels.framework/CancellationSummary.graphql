@@ -1,0 +1,8 @@
+query CancellationSummary($lineId: String!) {
+    cancellationSummary(lineId: $lineId) {
+        isWithinWithdrawalPeriod
+        withdrawalPeriodEndDate
+        withdrawalRefund
+        currentCycleEndDate
+    }
+}

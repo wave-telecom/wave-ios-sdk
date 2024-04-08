@@ -1,0 +1,12 @@
+fragment CatalogProductFragment on CatalogProduct {
+    id
+    name
+    description
+    priceInCents
+    unitType
+    unitAmount
+    isCurrentSubscriptionProduct
+    isCustomProduct
+    type
+    availableToCustomer
+}

@@ -1,0 +1,11 @@
+#import "../Fragments/PortabilityRequestFragment.graphql"
+
+mutation RequestPortability($input: NumberPortabilityRequestInput!) {
+    requestNumberPortability(input: $input) {
+        success
+        message
+        numberPortabilityRequest {
+            ...PortabilityRequestFragment
+        }
+    }
+}

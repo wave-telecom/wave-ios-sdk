@@ -1,0 +1,4 @@
+fragment PortabilityErrorFragment on NumberPortabilityRequestError {
+    code
+    description
+}

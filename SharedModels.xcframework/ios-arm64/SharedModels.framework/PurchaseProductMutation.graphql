@@ -1,0 +1,6 @@
+mutation PurchaseProduct($input: PurchaseProductInput!) {
+    purchase1GBTopupProduct(input: $input) {
+        success
+        message
+    }
+}

@@ -1,0 +1,7 @@
+#import "../Fragments/PaymentMethodFragment.graphql"
+
+query PaymentMethod($lineId: String!) {
+    paymentMethod(lineId: $lineId) {
+        ...PaymentMethodFragment
+    }
+}

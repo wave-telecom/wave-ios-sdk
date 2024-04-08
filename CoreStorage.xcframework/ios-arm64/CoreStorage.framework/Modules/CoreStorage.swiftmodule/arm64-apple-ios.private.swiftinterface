@@ -1,0 +1,63 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
+// swift-module-flags: -target arm64-apple-ios15.6 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name CoreStorage
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import DeveloperToolsSupport
+import Foundation
+import Swift
+import SwiftUI
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public enum KeyChainService : Swift.String {
+  case nomoSession
+  case nomoUserSignIn
+  case nomoAccessToken
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public class KeyChainStorage {
+  public init(service: CoreStorage.KeyChainService)
+  #if compiler(>=5.3) && $AsyncAwait
+  public func save<T>(_ data: T, forKey key: Swift.String) async throws where T : Swift.Decodable, T : Swift.Encodable
+  #endif
+  public func retrieve<T>(type: T.Type, forKey key: Swift.String) throws -> T where T : Swift.Decodable, T : Swift.Encodable
+  public func remove<T>(type: T.Type, forKey key: Swift.String) throws where T : Swift.Decodable, T : Swift.Encodable
+  public func removeAll() throws
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class StoreAccessToken {
+  public static var shared: CoreStorage.StoreAccessToken
+  #if compiler(>=5.3) && $AsyncAwait
+  public func saveAccessToken(_ accessToken: Swift.String) async
+  #endif
+  public func retrieveAccessToken() -> Swift.String
+  public func clear()
+  @objc deinit
+}
+public enum UserDefautsKeys : Swift.String {
+  case loginWithEmail
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public class UserDefautsStorage {
+  public init(userDefaults: Foundation.UserDefaults = .standard)
+  public func save<T>(_ data: T, forKey key: Swift.String) where T : Swift.Decodable, T : Swift.Encodable
+  public func retrieve<T>(type: T.Type, forKey key: Swift.String) -> T? where T : Swift.Decodable, T : Swift.Encodable
+  public func remove(forKey key: Swift.String)
+  public func removeAll()
+  @objc deinit
+}
+extension CoreStorage.KeyChainService : Swift.Equatable {}
+extension CoreStorage.KeyChainService : Swift.Hashable {}
+extension CoreStorage.KeyChainService : Swift.RawRepresentable {}
+extension CoreStorage.UserDefautsKeys : Swift.Equatable {}
+extension CoreStorage.UserDefautsKeys : Swift.Hashable {}
+extension CoreStorage.UserDefautsKeys : Swift.RawRepresentable {}

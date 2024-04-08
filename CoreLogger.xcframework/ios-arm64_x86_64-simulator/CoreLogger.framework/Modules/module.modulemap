@@ -1,0 +1,4 @@
+framework module CoreLogger {
+  header "CoreLogger-Swift.h"
+  requires objc
+}

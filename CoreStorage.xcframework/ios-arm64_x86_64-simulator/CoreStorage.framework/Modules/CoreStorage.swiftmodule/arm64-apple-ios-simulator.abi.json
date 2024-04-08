@@ -1,0 +1,1126 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CoreStorage"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "CoreStorage"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CoreStorage"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "KeyChainService",
+        "printedName": "KeyChainService",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "nomoSession",
+            "printedName": "nomoSession",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CoreStorage.KeyChainService.Type) -> CoreStorage.KeyChainService",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KeyChainService",
+                    "printedName": "CoreStorage.KeyChainService",
+                    "usr": "s:11CoreStorage15KeyChainServiceO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CoreStorage.KeyChainService.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KeyChainService",
+                        "printedName": "CoreStorage.KeyChainService",
+                        "usr": "s:11CoreStorage15KeyChainServiceO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11CoreStorage15KeyChainServiceO11nomoSessionyA2CmF",
+            "mangledName": "$s11CoreStorage15KeyChainServiceO11nomoSessionyA2CmF",
+            "moduleName": "CoreStorage"
+          },
+          {
+            "kind": "Var",
+            "name": "nomoUserSignIn",
+            "printedName": "nomoUserSignIn",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CoreStorage.KeyChainService.Type) -> CoreStorage.KeyChainService",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KeyChainService",
+                    "printedName": "CoreStorage.KeyChainService",
+                    "usr": "s:11CoreStorage15KeyChainServiceO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CoreStorage.KeyChainService.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KeyChainService",
+                        "printedName": "CoreStorage.KeyChainService",
+                        "usr": "s:11CoreStorage15KeyChainServiceO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11CoreStorage15KeyChainServiceO14nomoUserSignInyA2CmF",
+            "mangledName": "$s11CoreStorage15KeyChainServiceO14nomoUserSignInyA2CmF",
+            "moduleName": "CoreStorage"
+          },
+          {
+            "kind": "Var",
+            "name": "nomoAccessToken",
+            "printedName": "nomoAccessToken",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CoreStorage.KeyChainService.Type) -> CoreStorage.KeyChainService",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KeyChainService",
+                    "printedName": "CoreStorage.KeyChainService",
+                    "usr": "s:11CoreStorage15KeyChainServiceO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CoreStorage.KeyChainService.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KeyChainService",
+                        "printedName": "CoreStorage.KeyChainService",
+                        "usr": "s:11CoreStorage15KeyChainServiceO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11CoreStorage15KeyChainServiceO15nomoAccessTokenyA2CmF",
+            "mangledName": "$s11CoreStorage15KeyChainServiceO15nomoAccessTokenyA2CmF",
+            "moduleName": "CoreStorage"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreStorage.KeyChainService?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KeyChainService",
+                    "printedName": "CoreStorage.KeyChainService",
+                    "usr": "s:11CoreStorage15KeyChainServiceO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11CoreStorage15KeyChainServiceO8rawValueACSgSS_tcfc",
+            "mangledName": "$s11CoreStorage15KeyChainServiceO8rawValueACSgSS_tcfc",
+            "moduleName": "CoreStorage",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11CoreStorage15KeyChainServiceO8rawValueSSvp",
+            "mangledName": "$s11CoreStorage15KeyChainServiceO8rawValueSSvp",
+            "moduleName": "CoreStorage",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CoreStorage15KeyChainServiceO8rawValueSSvg",
+                "mangledName": "$s11CoreStorage15KeyChainServiceO8rawValueSSvg",
+                "moduleName": "CoreStorage",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:11CoreStorage15KeyChainServiceO",
+        "mangledName": "$s11CoreStorage15KeyChainServiceO",
+        "moduleName": "CoreStorage",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CoreStorage"
+      },
+      {
+        "kind": "Import",
+        "name": "KeychainAccess",
+        "printedName": "KeychainAccess",
+        "declKind": "Import",
+        "moduleName": "CoreStorage",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "KeyChainStorage",
+        "printedName": "KeyChainStorage",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(service:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "KeyChainStorage",
+                "printedName": "CoreStorage.KeyChainStorage",
+                "usr": "s:11CoreStorage08KeyChainB0C"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KeyChainService",
+                "printedName": "CoreStorage.KeyChainService",
+                "usr": "s:11CoreStorage15KeyChainServiceO"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11CoreStorage08KeyChainB0C7serviceAcA0cD7ServiceO_tcfc",
+            "mangledName": "$s11CoreStorage08KeyChainB0C7serviceAcA0cD7ServiceO_tcfc",
+            "moduleName": "CoreStorage",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "save",
+            "printedName": "save(_:forKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11CoreStorage08KeyChainB0C4save_03forC0yx_SStYaKSeRzSERzlF",
+            "mangledName": "$s11CoreStorage08KeyChainB0C4save_03forC0yx_SStYaKSeRzSERzlF",
+            "moduleName": "CoreStorage",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable>",
+            "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable>",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "retrieve",
+            "printedName": "retrieve(type:forKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_0_0.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11CoreStorage08KeyChainB0C8retrieve4type03forC0xxm_SStKSeRzSERzlF",
+            "mangledName": "$s11CoreStorage08KeyChainB0C8retrieve4type03forC0xxm_SStKSeRzSERzlF",
+            "moduleName": "CoreStorage",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable>",
+            "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "remove",
+            "printedName": "remove(type:forKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_0_0.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11CoreStorage08KeyChainB0C6remove4type03forC0yxm_SStKSeRzSERzlF",
+            "mangledName": "$s11CoreStorage08KeyChainB0C6remove4type03forC0yxm_SStKSeRzSERzlF",
+            "moduleName": "CoreStorage",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable>",
+            "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "removeAll",
+            "printedName": "removeAll()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11CoreStorage08KeyChainB0C9removeAllyyKF",
+            "mangledName": "$s11CoreStorage08KeyChainB0C9removeAllyyKF",
+            "moduleName": "CoreStorage",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:11CoreStorage08KeyChainB0C",
+        "mangledName": "$s11CoreStorage08KeyChainB0C",
+        "moduleName": "CoreStorage",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CoreStorage"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "StoreAccessToken",
+        "printedName": "StoreAccessToken",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "StoreAccessToken",
+                "printedName": "CoreStorage.StoreAccessToken",
+                "usr": "s:11CoreStorage16StoreAccessTokenC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11CoreStorage16StoreAccessTokenC6sharedACvpZ",
+            "mangledName": "$s11CoreStorage16StoreAccessTokenC6sharedACvpZ",
+            "moduleName": "CoreStorage",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StoreAccessToken",
+                    "printedName": "CoreStorage.StoreAccessToken",
+                    "usr": "s:11CoreStorage16StoreAccessTokenC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CoreStorage16StoreAccessTokenC6sharedACvgZ",
+                "mangledName": "$s11CoreStorage16StoreAccessTokenC6sharedACvgZ",
+                "moduleName": "CoreStorage",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StoreAccessToken",
+                    "printedName": "CoreStorage.StoreAccessToken",
+                    "usr": "s:11CoreStorage16StoreAccessTokenC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CoreStorage16StoreAccessTokenC6sharedACvsZ",
+                "mangledName": "$s11CoreStorage16StoreAccessTokenC6sharedACvsZ",
+                "moduleName": "CoreStorage",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CoreStorage16StoreAccessTokenC6sharedACvMZ",
+                "mangledName": "$s11CoreStorage16StoreAccessTokenC6sharedACvMZ",
+                "moduleName": "CoreStorage",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "saveAccessToken",
+            "printedName": "saveAccessToken(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11CoreStorage16StoreAccessTokenC04savedE0yySSYaF",
+            "mangledName": "$s11CoreStorage16StoreAccessTokenC04savedE0yySSYaF",
+            "moduleName": "CoreStorage",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "retrieveAccessToken",
+            "printedName": "retrieveAccessToken()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11CoreStorage16StoreAccessTokenC08retrievedE0SSyF",
+            "mangledName": "$s11CoreStorage16StoreAccessTokenC08retrievedE0SSyF",
+            "moduleName": "CoreStorage",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "clear",
+            "printedName": "clear()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11CoreStorage16StoreAccessTokenC5clearyyF",
+            "mangledName": "$s11CoreStorage16StoreAccessTokenC5clearyyF",
+            "moduleName": "CoreStorage",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:11CoreStorage16StoreAccessTokenC",
+        "mangledName": "$s11CoreStorage16StoreAccessTokenC",
+        "moduleName": "CoreStorage",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CoreStorage",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CoreStorage"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UserDefautsKeys",
+        "printedName": "UserDefautsKeys",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "loginWithEmail",
+            "printedName": "loginWithEmail",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CoreStorage.UserDefautsKeys.Type) -> CoreStorage.UserDefautsKeys",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UserDefautsKeys",
+                    "printedName": "CoreStorage.UserDefautsKeys",
+                    "usr": "s:11CoreStorage15UserDefautsKeysO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CoreStorage.UserDefautsKeys.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UserDefautsKeys",
+                        "printedName": "CoreStorage.UserDefautsKeys",
+                        "usr": "s:11CoreStorage15UserDefautsKeysO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11CoreStorage15UserDefautsKeysO14loginWithEmailyA2CmF",
+            "mangledName": "$s11CoreStorage15UserDefautsKeysO14loginWithEmailyA2CmF",
+            "moduleName": "CoreStorage"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreStorage.UserDefautsKeys?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UserDefautsKeys",
+                    "printedName": "CoreStorage.UserDefautsKeys",
+                    "usr": "s:11CoreStorage15UserDefautsKeysO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11CoreStorage15UserDefautsKeysO8rawValueACSgSS_tcfc",
+            "mangledName": "$s11CoreStorage15UserDefautsKeysO8rawValueACSgSS_tcfc",
+            "moduleName": "CoreStorage",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11CoreStorage15UserDefautsKeysO8rawValueSSvp",
+            "mangledName": "$s11CoreStorage15UserDefautsKeysO8rawValueSSvp",
+            "moduleName": "CoreStorage",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CoreStorage15UserDefautsKeysO8rawValueSSvg",
+                "mangledName": "$s11CoreStorage15UserDefautsKeysO8rawValueSSvg",
+                "moduleName": "CoreStorage",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:11CoreStorage15UserDefautsKeysO",
+        "mangledName": "$s11CoreStorage15UserDefautsKeysO",
+        "moduleName": "CoreStorage",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UserDefautsStorage",
+        "printedName": "UserDefautsStorage",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(userDefaults:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UserDefautsStorage",
+                "printedName": "CoreStorage.UserDefautsStorage",
+                "usr": "s:11CoreStorage011UserDefautsB0C"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UserDefaults",
+                "printedName": "Foundation.UserDefaults",
+                "hasDefaultArg": true,
+                "usr": "c:objc(cs)NSUserDefaults"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11CoreStorage011UserDefautsB0C12userDefaultsACSo06NSUserF0C_tcfc",
+            "mangledName": "$s11CoreStorage011UserDefautsB0C12userDefaultsACSo06NSUserF0C_tcfc",
+            "moduleName": "CoreStorage",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "save",
+            "printedName": "save(_:forKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11CoreStorage011UserDefautsB0C4save_6forKeyyx_SStSeRzSERzlF",
+            "mangledName": "$s11CoreStorage011UserDefautsB0C4save_6forKeyyx_SStSeRzSERzlF",
+            "moduleName": "CoreStorage",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable>",
+            "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable>",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "retrieve",
+            "printedName": "retrieve(type:forKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "τ_0_0?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_0_0.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11CoreStorage011UserDefautsB0C8retrieve4type6forKeyxSgxm_SStSeRzSERzlF",
+            "mangledName": "$s11CoreStorage011UserDefautsB0C8retrieve4type6forKeyxSgxm_SStSeRzSERzlF",
+            "moduleName": "CoreStorage",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable>",
+            "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "remove",
+            "printedName": "remove(forKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11CoreStorage011UserDefautsB0C6remove6forKeyySS_tF",
+            "mangledName": "$s11CoreStorage011UserDefautsB0C6remove6forKeyySS_tF",
+            "moduleName": "CoreStorage",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "removeAll",
+            "printedName": "removeAll()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11CoreStorage011UserDefautsB0C9removeAllyyF",
+            "mangledName": "$s11CoreStorage011UserDefautsB0C9removeAllyyF",
+            "moduleName": "CoreStorage",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:11CoreStorage011UserDefautsB0C",
+        "mangledName": "$s11CoreStorage011UserDefautsB0C",
+        "moduleName": "CoreStorage",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CoreStorage"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CoreStorage"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "CoreStorage"
+      },
+      {
+        "kind": "Import",
+        "name": "DeveloperToolsSupport",
+        "printedName": "DeveloperToolsSupport",
+        "declKind": "Import",
+        "moduleName": "CoreStorage"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreStorage\/Source\/Resources\/Generated\/AutoEquatable.generated.swift",
+      "kind": "BooleanLiteral",
+      "offset": 368,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreStorage\/Source\/Resources\/Generated\/AutoEquatable.generated.swift",
+      "kind": "BooleanLiteral",
+      "offset": 401,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreStorage\/Source\/Resources\/Generated\/AutoEquatable.generated.swift",
+      "kind": "BooleanLiteral",
+      "offset": 566,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreStorage\/Source\/Resources\/Generated\/AutoEquatable.generated.swift",
+      "kind": "BooleanLiteral",
+      "offset": 674,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreStorage\/Source\/Resources\/Generated\/AutoEquatable.generated.swift",
+      "kind": "BooleanLiteral",
+      "offset": 700,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreStorage\/Source\/KeyChain\/KeyChainService.swift",
+      "kind": "StringLiteral",
+      "offset": 80,
+      "length": 17,
+      "value": "\"k200techSession\""
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreStorage\/Source\/KeyChain\/KeyChainService.swift",
+      "kind": "StringLiteral",
+      "offset": 124,
+      "length": 17,
+      "value": "\"kNomoUserSignIn\""
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreStorage\/Source\/KeyChain\/KeyChainService.swift",
+      "kind": "StringLiteral",
+      "offset": 169,
+      "length": 18,
+      "value": "\"kNomoAccessToken\""
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreStorage\/Source\/KeyChain\/KeyChainService.swift",
+      "kind": "StringLiteral",
+      "offset": 80,
+      "length": 17,
+      "value": "\"k200techSession\""
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreStorage\/Source\/KeyChain\/KeyChainService.swift",
+      "kind": "StringLiteral",
+      "offset": 124,
+      "length": 17,
+      "value": "\"kNomoUserSignIn\""
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreStorage\/Source\/KeyChain\/KeyChainService.swift",
+      "kind": "StringLiteral",
+      "offset": 169,
+      "length": 18,
+      "value": "\"kNomoAccessToken\""
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreStorage\/Source\/Storage\/StoreAccessToken.swift",
+      "kind": "StringLiteral",
+      "offset": 691,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreStorage\/Source\/Resources\/Generated\/Strings.generated.swift",
+      "kind": "IntegerLiteral",
+      "offset": 916,
+      "length": 1,
+      "value": "0"
+    }
+  ]
+}

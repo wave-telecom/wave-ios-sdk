@@ -1,0 +1,17 @@
+#import "LegalPersonFragment.graphql"
+#import "PhoneFragment.graphql"
+
+fragment LineFragment on Line {
+    id
+    status
+    product
+    legalPerson {
+        ...LegalPersonFragment
+    }
+    currentSimCard {
+        iccId
+    }
+    phone {
+        ...PhoneFragment
+    }
+}

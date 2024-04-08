@@ -1,0 +1,6 @@
+mutation RequestAppState($input: DismissNumberPortabilityCardRequestInput!) {
+   dismissNumberPortabilityCard(input: $input) {
+      success
+      message
+   }
+}

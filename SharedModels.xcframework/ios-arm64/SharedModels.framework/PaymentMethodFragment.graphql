@@ -1,0 +1,10 @@
+fragment PaymentMethodFragment on PaymentMethod {
+    type
+    name
+    pngIconUrl
+    paymentMethodData {
+        maskedNumber
+        processor
+        expirationDate
+    }
+}

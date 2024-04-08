@@ -1,0 +1,9 @@
+mutation cancellationRequest($input: CancellationRequestInput!) {
+    cancellationRequest(input: $input) {
+        success
+        message
+        userEmail
+        userName
+        currentCycleEndDate
+    }
+}

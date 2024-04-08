@@ -1,0 +1,7 @@
+#import "Fragments/ReferralBonusFragment.graphql"
+
+query ReferralBonus($lineId: String!) {
+    referralBonus(lineId: $lineId) {
+        ...ReferralBonusFragment
+    }
+}

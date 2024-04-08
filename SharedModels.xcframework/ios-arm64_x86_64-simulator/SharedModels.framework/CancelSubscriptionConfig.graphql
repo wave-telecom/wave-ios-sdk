@@ -1,0 +1,6 @@
+mutation CancelSubscriptionConfig($input: CancelSubscriptionConfigInput!) {
+    cancelSubscriptionConfig(input: $input) {
+        success
+        message
+    }
+}

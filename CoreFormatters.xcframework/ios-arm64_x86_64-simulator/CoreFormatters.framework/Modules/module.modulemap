@@ -1,0 +1,4 @@
+framework module CoreFormatters {
+  header "CoreFormatters-Swift.h"
+  requires objc
+}

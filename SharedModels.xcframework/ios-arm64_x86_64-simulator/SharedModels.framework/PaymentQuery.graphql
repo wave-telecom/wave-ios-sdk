@@ -1,0 +1,10 @@
+#import "../Fragments/PaymentFragment.graphql"
+
+query GetPayment($lineId: String!) {
+    payments(lineId: $lineId) {
+        referenceYear
+        payments {
+            ...PaymentFragment
+        }
+    }
+}

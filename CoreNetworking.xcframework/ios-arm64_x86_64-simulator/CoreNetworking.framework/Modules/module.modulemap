@@ -1,0 +1,4 @@
+framework module CoreNetworking {
+  header "CoreNetworking-Swift.h"
+  requires objc
+}

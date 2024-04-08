@@ -1,0 +1,263 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "WaveSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "WaveSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WaveSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "FeatureActivation",
+        "printedName": "FeatureActivation",
+        "declKind": "Import",
+        "moduleName": "WaveSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "WaveSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "WaveFoundation",
+        "printedName": "WaveFoundation",
+        "declKind": "Import",
+        "moduleName": "WaveSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "WaveEntryPoint",
+        "printedName": "WaveEntryPoint",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "activation",
+            "printedName": "activation",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WaveSDK.WaveEntryPoint.Type) -> (@escaping () -> ()) -> WaveSDK.WaveEntryPoint",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(@escaping () -> ()) -> WaveSDK.WaveEntryPoint",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WaveEntryPoint",
+                        "printedName": "WaveSDK.WaveEntryPoint",
+                        "usr": "s:7WaveSDK0A10EntryPointO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(requestPortability: () -> ())",
+                        "children": [
+                          {
+                            "kind": "TypeFunc",
+                            "name": "Function",
+                            "printedName": "() -> ()",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Void",
+                                "printedName": "()"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Void",
+                                "printedName": "()"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WaveSDK.WaveEntryPoint.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WaveEntryPoint",
+                        "printedName": "WaveSDK.WaveEntryPoint",
+                        "usr": "s:7WaveSDK0A10EntryPointO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7WaveSDK0A10EntryPointO10activationyACyyc_tcACmF",
+            "mangledName": "$s7WaveSDK0A10EntryPointO10activationyACyyc_tcACmF",
+            "moduleName": "WaveSDK"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:7WaveSDK0A10EntryPointO",
+        "mangledName": "$s7WaveSDK0A10EntryPointO",
+        "moduleName": "WaveSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WaveFoundation",
+        "printedName": "WaveFoundation",
+        "declKind": "Import",
+        "moduleName": "WaveSDK",
+        "declAttributes": [
+          "Exported"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WaveSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "WaveSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "WaveSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "DeveloperToolsSupport",
+        "printedName": "DeveloperToolsSupport",
+        "declKind": "Import",
+        "moduleName": "WaveSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Wave",
+        "printedName": "Wave",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "start",
+            "printedName": "start(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UINavigationController",
+                "printedName": "UIKit.UINavigationController",
+                "usr": "c:objc(cs)UINavigationController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WaveEntryPoint",
+                "printedName": "WaveSDK.WaveEntryPoint",
+                "usr": "s:7WaveSDK0A10EntryPointO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11CoreSession4WaveC0C3SDKE5startySo22UINavigationControllerCAD0C10EntryPointOF",
+            "mangledName": "$s11CoreSession4WaveC0C3SDKE5startySo22UINavigationControllerCAD0C10EntryPointOF",
+            "moduleName": "WaveSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:11CoreSession4WaveC",
+        "mangledName": "$s11CoreSession4WaveC",
+        "moduleName": "CoreSession",
+        "isExternal": true,
+        "hasMissingDesignatedInitializers": true
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/WaveSDK\/Source\/Resources\/Generated\/AutoEquatable.generated.swift",
+      "kind": "BooleanLiteral",
+      "offset": 368,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/WaveSDK\/Source\/Resources\/Generated\/AutoEquatable.generated.swift",
+      "kind": "BooleanLiteral",
+      "offset": 401,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/WaveSDK\/Source\/Resources\/Generated\/AutoEquatable.generated.swift",
+      "kind": "BooleanLiteral",
+      "offset": 566,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/WaveSDK\/Source\/Resources\/Generated\/AutoEquatable.generated.swift",
+      "kind": "BooleanLiteral",
+      "offset": 674,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/WaveSDK\/Source\/Resources\/Generated\/AutoEquatable.generated.swift",
+      "kind": "BooleanLiteral",
+      "offset": 700,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/WaveSDK\/Source\/Resources\/Generated\/Strings.generated.swift",
+      "kind": "IntegerLiteral",
+      "offset": 916,
+      "length": 1,
+      "value": "0"
+    }
+  ]
+}

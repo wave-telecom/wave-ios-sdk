@@ -1,0 +1,15 @@
+query SubscriptionUsageReport($lineId: String!) {
+    subscriptionUsageReport(lineId: $lineId) {
+        usages {
+            type
+            unitAcquiredAmount
+            unitType
+            unitAvailableAmount
+            unitConsumedAmount
+            usageStartDate
+            usageEndDate
+        }
+        usageCardState
+        daysToRenewal
+    }
+}

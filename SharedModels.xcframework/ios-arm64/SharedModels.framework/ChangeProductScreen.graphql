@@ -1,0 +1,10 @@
+#import "../Fragments/CatalogProductFragment.graphql"
+
+query ChangeProductScreen($lineId: String!) {
+    changeProductScreen(lineId: $lineId) {
+        nextRenewalDate
+        catalogProducts {
+            ...CatalogProductFragment
+        }
+    }
+}

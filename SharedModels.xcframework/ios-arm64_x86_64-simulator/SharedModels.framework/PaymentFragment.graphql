@@ -1,0 +1,17 @@
+fragment PaymentFragment on Payment {
+    id
+    paymentDate
+    description
+    status
+    priceInCents
+    productValidFrom
+    productValidThru
+    paymentMethod {
+        ...PaymentMethodFragment
+    }
+    referenceDate
+    paymentDetails {
+        description
+        priceInCents
+    }
+}

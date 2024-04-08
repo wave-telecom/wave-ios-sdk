@@ -1,0 +1,18 @@
+#import "SubscriptionProductFragment.graphql"
+
+fragment SubscriptionConfigFragment on SubscriptionConfigV2 {
+    id
+    totalPriceInCents
+    isCustomProduct
+    product {
+        ...SubscriptionProductFragment
+    }
+    addons {
+        quantity
+        product {
+            ...SubscriptionProductFragment
+        }
+    }
+    approvedAt
+    validFrom
+}

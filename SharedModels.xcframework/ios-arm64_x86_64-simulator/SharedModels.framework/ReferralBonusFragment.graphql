@@ -1,0 +1,11 @@
+#import "ReferralProductFragment.graphql"
+
+fragment ReferralBonusFragment on ReferralBonus {
+    totalDataInGibibytes
+    redeemedProducts {
+        ...ReferralProductFragment
+    }
+    unredeemedProducts {
+        ...ReferralProductFragment
+    }
+}

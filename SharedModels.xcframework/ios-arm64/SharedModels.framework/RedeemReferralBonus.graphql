@@ -1,0 +1,15 @@
+#import "Fragments/ReferralProductFragment.graphql"
+#import "Fragments/ReferralBonusFragment.graphql"
+
+mutation RedeemReferralBonus($input: RedeemReferralBonusInput!) {
+    redeemReferralBonus(input: $input) {
+        success
+        message
+        redeemedProduct {
+            ...ReferralProductFragment
+        }
+        referralBonus {
+            ...ReferralBonusFragment
+        }
+    }
+}

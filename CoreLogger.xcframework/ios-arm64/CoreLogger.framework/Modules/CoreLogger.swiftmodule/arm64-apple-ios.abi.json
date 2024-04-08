@@ -1,0 +1,1099 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CoreLogger"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "CoreLogger"
+      },
+      {
+        "kind": "Import",
+        "name": "Bugsnag",
+        "printedName": "Bugsnag",
+        "declKind": "Import",
+        "moduleName": "CoreLogger",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Bugs",
+        "printedName": "Bugs",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bugs",
+                "printedName": "CoreLogger.Bugs",
+                "usr": "s:10CoreLogger4BugsC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10CoreLogger4BugsC6sharedACvpZ",
+            "mangledName": "$s10CoreLogger4BugsC6sharedACvpZ",
+            "moduleName": "CoreLogger",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bugs",
+                    "printedName": "CoreLogger.Bugs",
+                    "usr": "s:10CoreLogger4BugsC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10CoreLogger4BugsC6sharedACvgZ",
+                "mangledName": "$s10CoreLogger4BugsC6sharedACvgZ",
+                "moduleName": "CoreLogger",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "start",
+            "printedName": "start()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10CoreLogger4BugsC5startyyF",
+            "mangledName": "$s10CoreLogger4BugsC5startyyF",
+            "moduleName": "CoreLogger",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setUser",
+            "printedName": "setUser(_:withEmail:andName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10CoreLogger4BugsC7setUser_9withEmail7andNameySS_S2StF",
+            "mangledName": "$s10CoreLogger4BugsC7setUser_9withEmail7andNameySS_S2StF",
+            "moduleName": "CoreLogger",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:10CoreLogger4BugsC",
+        "mangledName": "$s10CoreLogger4BugsC",
+        "moduleName": "CoreLogger",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Bugsnag",
+        "printedName": "Bugsnag",
+        "declKind": "Import",
+        "moduleName": "CoreLogger",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CoreLogger"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CoreLogger"
+      },
+      {
+        "kind": "Import",
+        "name": "OSLog",
+        "printedName": "OSLog",
+        "declKind": "Import",
+        "moduleName": "CoreLogger"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NomoLogger",
+        "printedName": "NomoLogger",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(category:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NomoLogger",
+                "printedName": "CoreLogger.NomoLogger",
+                "usr": "s:10CoreLogger04NomoB0V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10CoreLogger04NomoB0V8categoryACSS_tcfc",
+            "mangledName": "$s10CoreLogger04NomoB0V8categoryACSS_tcfc",
+            "moduleName": "CoreLogger",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(subsystem:category:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NomoLogger",
+                "printedName": "CoreLogger.NomoLogger",
+                "usr": "s:10CoreLogger04NomoB0V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10CoreLogger04NomoB0V9subsystem8categoryACSS_SStcfc",
+            "mangledName": "$s10CoreLogger04NomoB0V9subsystem8categoryACSS_SStcfc",
+            "moduleName": "CoreLogger",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "log",
+            "printedName": "log(type:withStructure:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LoggerLevel",
+                "printedName": "CoreLogger.LoggerLevel",
+                "usr": "s:10CoreLogger0B5LevelO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "StructuredLog",
+                "printedName": "CoreLogger.StructuredLog",
+                "usr": "s:10CoreLogger13StructuredLogV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10CoreLogger04NomoB0V3log4type13withStructureyAA0B5LevelO_AA13StructuredLogVtF",
+            "mangledName": "$s10CoreLogger04NomoB0V3log4type13withStructureyAA0B5LevelO_AA13StructuredLogVtF",
+            "moduleName": "CoreLogger",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:10CoreLogger04NomoB0V",
+        "mangledName": "$s10CoreLogger04NomoB0V",
+        "moduleName": "CoreLogger",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CoreLogger"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LoggerLevel",
+        "printedName": "LoggerLevel",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "trace",
+            "printedName": "trace",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CoreLogger.LoggerLevel.Type) -> CoreLogger.LoggerLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LoggerLevel",
+                    "printedName": "CoreLogger.LoggerLevel",
+                    "usr": "s:10CoreLogger0B5LevelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CoreLogger.LoggerLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LoggerLevel",
+                        "printedName": "CoreLogger.LoggerLevel",
+                        "usr": "s:10CoreLogger0B5LevelO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10CoreLogger0B5LevelO5traceyA2CmF",
+            "mangledName": "$s10CoreLogger0B5LevelO5traceyA2CmF",
+            "moduleName": "CoreLogger"
+          },
+          {
+            "kind": "Var",
+            "name": "debug",
+            "printedName": "debug",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CoreLogger.LoggerLevel.Type) -> CoreLogger.LoggerLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LoggerLevel",
+                    "printedName": "CoreLogger.LoggerLevel",
+                    "usr": "s:10CoreLogger0B5LevelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CoreLogger.LoggerLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LoggerLevel",
+                        "printedName": "CoreLogger.LoggerLevel",
+                        "usr": "s:10CoreLogger0B5LevelO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10CoreLogger0B5LevelO5debugyA2CmF",
+            "mangledName": "$s10CoreLogger0B5LevelO5debugyA2CmF",
+            "moduleName": "CoreLogger"
+          },
+          {
+            "kind": "Var",
+            "name": "info",
+            "printedName": "info",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CoreLogger.LoggerLevel.Type) -> CoreLogger.LoggerLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LoggerLevel",
+                    "printedName": "CoreLogger.LoggerLevel",
+                    "usr": "s:10CoreLogger0B5LevelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CoreLogger.LoggerLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LoggerLevel",
+                        "printedName": "CoreLogger.LoggerLevel",
+                        "usr": "s:10CoreLogger0B5LevelO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10CoreLogger0B5LevelO4infoyA2CmF",
+            "mangledName": "$s10CoreLogger0B5LevelO4infoyA2CmF",
+            "moduleName": "CoreLogger"
+          },
+          {
+            "kind": "Var",
+            "name": "notice",
+            "printedName": "notice",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CoreLogger.LoggerLevel.Type) -> CoreLogger.LoggerLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LoggerLevel",
+                    "printedName": "CoreLogger.LoggerLevel",
+                    "usr": "s:10CoreLogger0B5LevelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CoreLogger.LoggerLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LoggerLevel",
+                        "printedName": "CoreLogger.LoggerLevel",
+                        "usr": "s:10CoreLogger0B5LevelO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10CoreLogger0B5LevelO6noticeyA2CmF",
+            "mangledName": "$s10CoreLogger0B5LevelO6noticeyA2CmF",
+            "moduleName": "CoreLogger"
+          },
+          {
+            "kind": "Var",
+            "name": "warning",
+            "printedName": "warning",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CoreLogger.LoggerLevel.Type) -> CoreLogger.LoggerLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LoggerLevel",
+                    "printedName": "CoreLogger.LoggerLevel",
+                    "usr": "s:10CoreLogger0B5LevelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CoreLogger.LoggerLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LoggerLevel",
+                        "printedName": "CoreLogger.LoggerLevel",
+                        "usr": "s:10CoreLogger0B5LevelO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10CoreLogger0B5LevelO7warningyA2CmF",
+            "mangledName": "$s10CoreLogger0B5LevelO7warningyA2CmF",
+            "moduleName": "CoreLogger"
+          },
+          {
+            "kind": "Var",
+            "name": "error",
+            "printedName": "error",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CoreLogger.LoggerLevel.Type) -> CoreLogger.LoggerLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LoggerLevel",
+                    "printedName": "CoreLogger.LoggerLevel",
+                    "usr": "s:10CoreLogger0B5LevelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CoreLogger.LoggerLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LoggerLevel",
+                        "printedName": "CoreLogger.LoggerLevel",
+                        "usr": "s:10CoreLogger0B5LevelO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10CoreLogger0B5LevelO5erroryA2CmF",
+            "mangledName": "$s10CoreLogger0B5LevelO5erroryA2CmF",
+            "moduleName": "CoreLogger"
+          },
+          {
+            "kind": "Var",
+            "name": "critical",
+            "printedName": "critical",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CoreLogger.LoggerLevel.Type) -> CoreLogger.LoggerLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LoggerLevel",
+                    "printedName": "CoreLogger.LoggerLevel",
+                    "usr": "s:10CoreLogger0B5LevelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CoreLogger.LoggerLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LoggerLevel",
+                        "printedName": "CoreLogger.LoggerLevel",
+                        "usr": "s:10CoreLogger0B5LevelO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10CoreLogger0B5LevelO8criticalyA2CmF",
+            "mangledName": "$s10CoreLogger0B5LevelO8criticalyA2CmF",
+            "moduleName": "CoreLogger"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LoggerLevel",
+                "printedName": "CoreLogger.LoggerLevel",
+                "usr": "s:10CoreLogger0B5LevelO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LoggerLevel",
+                "printedName": "CoreLogger.LoggerLevel",
+                "usr": "s:10CoreLogger0B5LevelO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10CoreLogger0B5LevelO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s10CoreLogger0B5LevelO2eeoiySbAC_ACtFZ",
+            "moduleName": "CoreLogger",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10CoreLogger0B5LevelO9hashValueSivp",
+            "mangledName": "$s10CoreLogger0B5LevelO9hashValueSivp",
+            "moduleName": "CoreLogger",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10CoreLogger0B5LevelO9hashValueSivg",
+                "mangledName": "$s10CoreLogger0B5LevelO9hashValueSivg",
+                "moduleName": "CoreLogger",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10CoreLogger0B5LevelO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s10CoreLogger0B5LevelO4hash4intoys6HasherVz_tF",
+            "moduleName": "CoreLogger",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:10CoreLogger0B5LevelO",
+        "mangledName": "$s10CoreLogger0B5LevelO",
+        "moduleName": "CoreLogger",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CoreLogger",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CoreLogger"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "StructuredLog",
+        "printedName": "StructuredLog",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(title:method:message:networkStatus:error:metadata:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "StructuredLog",
+                "printedName": "CoreLogger.StructuredLog",
+                "usr": "s:10CoreLogger13StructuredLogV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Error?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10CoreLogger13StructuredLogV5title6method7message13networkStatus5error8metadataACSS_S3Ss5Error_pSgSDySSypGSgtcfc",
+            "mangledName": "$s10CoreLogger13StructuredLogV5title6method7message13networkStatus5error8metadataACSS_S3Ss5Error_pSgSDySSypGSgtcfc",
+            "moduleName": "CoreLogger",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:10CoreLogger13StructuredLogV",
+        "mangledName": "$s10CoreLogger13StructuredLogV",
+        "moduleName": "CoreLogger",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CoreLogger"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CoreLogger"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "CoreLogger"
+      },
+      {
+        "kind": "Import",
+        "name": "DeveloperToolsSupport",
+        "printedName": "DeveloperToolsSupport",
+        "declKind": "Import",
+        "moduleName": "CoreLogger"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Sources\/Resources\/Generated\/AutoEquatable.generated.swift",
+      "kind": "BooleanLiteral",
+      "offset": 368,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Sources\/Resources\/Generated\/AutoEquatable.generated.swift",
+      "kind": "BooleanLiteral",
+      "offset": 401,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Sources\/Resources\/Generated\/AutoEquatable.generated.swift",
+      "kind": "BooleanLiteral",
+      "offset": 566,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Sources\/Resources\/Generated\/AutoEquatable.generated.swift",
+      "kind": "BooleanLiteral",
+      "offset": 674,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Sources\/Resources\/Generated\/AutoEquatable.generated.swift",
+      "kind": "BooleanLiteral",
+      "offset": 700,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Sources\/Bugsnag\/BugsnagException.swift",
+      "kind": "Dictionary",
+      "offset": 317,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Sources\/Bugsnag\/BugsnagException.swift",
+      "kind": "StringLiteral",
+      "offset": 434,
+      "length": 8,
+      "value": "\"method\""
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Sources\/Log\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 710,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Sources\/Log\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 862,
+      "length": 14,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Sources\/Log\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 868,
+      "length": 1,
+      "value": "\": \""
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Sources\/Log\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 875,
+      "length": 3,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Sources\/Log\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 914,
+      "length": 4,
+      "value": "\", \""
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Sources\/Log\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 1096,
+      "length": 14,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Sources\/Log\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 1102,
+      "length": 1,
+      "value": "\": \""
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Sources\/Log\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 1109,
+      "length": 3,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Sources\/Log\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 1148,
+      "length": 4,
+      "value": "\", \""
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Sources\/Log\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 1228,
+      "length": 113,
+      "value": "\"title: \""
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Sources\/Log\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 1244,
+      "length": 1,
+      "value": "\", method: \""
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Sources\/Log\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 1263,
+      "length": 1,
+      "value": "\", message: \""
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Sources\/Log\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 1284,
+      "length": 1,
+      "value": "\", networkStatus: \""
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Sources\/Log\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 1317,
+      "length": 1,
+      "value": "\", metadata: \""
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Sources\/Log\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 1340,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Sources\/Log\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 1411,
+      "length": 15,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Sources\/Log\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 1425,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Sources\/Log\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 1475,
+      "length": 15,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Sources\/Log\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 1489,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Sources\/Log\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 1537,
+      "length": 15,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Sources\/Log\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 1551,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Sources\/Log\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 1603,
+      "length": 15,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Sources\/Log\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 1617,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Sources\/Log\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 1671,
+      "length": 15,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Sources\/Log\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 1685,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Sources\/Log\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 1735,
+      "length": 15,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Sources\/Log\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 1749,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Sources\/Log\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 1853,
+      "length": 15,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Sources\/Log\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 1867,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Sources\/Resources\/Generated\/Strings.generated.swift",
+      "kind": "IntegerLiteral",
+      "offset": 916,
+      "length": 1,
+      "value": "0"
+    }
+  ]
+}

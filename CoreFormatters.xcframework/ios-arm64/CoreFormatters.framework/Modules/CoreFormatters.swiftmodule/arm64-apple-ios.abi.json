@@ -1,0 +1,3498 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CoreFormatters"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "CoreFormatters"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CoreFormatters"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CoreFormatters"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CoreFormatters"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CoreFormatters"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CoreFormatters"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CoreFormatters"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CoreFormatters"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CoreFormatters"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Mask",
+        "printedName": "Mask",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "cleanText",
+            "printedName": "cleanText",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14CoreFormatters4MaskC9cleanTextSSvp",
+            "mangledName": "$s14CoreFormatters4MaskC9cleanTextSSvp",
+            "moduleName": "CoreFormatters",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14CoreFormatters4MaskC9cleanTextSSvg",
+                "mangledName": "$s14CoreFormatters4MaskC9cleanTextSSvg",
+                "moduleName": "CoreFormatters",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "formattingPattern",
+            "printedName": "formattingPattern",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14CoreFormatters4MaskC17formattingPatternSSvp",
+            "mangledName": "$s14CoreFormatters4MaskC17formattingPatternSSvp",
+            "moduleName": "CoreFormatters",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14CoreFormatters4MaskC17formattingPatternSSvg",
+                "mangledName": "$s14CoreFormatters4MaskC17formattingPatternSSvg",
+                "moduleName": "CoreFormatters",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14CoreFormatters4MaskC17formattingPatternSSvs",
+                "mangledName": "$s14CoreFormatters4MaskC17formattingPatternSSvs",
+                "moduleName": "CoreFormatters",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14CoreFormatters4MaskC17formattingPatternSSvM",
+                "mangledName": "$s14CoreFormatters4MaskC17formattingPatternSSvM",
+                "moduleName": "CoreFormatters",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(formattingPattern:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Mask",
+                "printedName": "CoreFormatters.Mask",
+                "usr": "s:14CoreFormatters4MaskC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14CoreFormatters4MaskC17formattingPatternACSS_tcfc",
+            "mangledName": "$s14CoreFormatters4MaskC17formattingPatternACSS_tcfc",
+            "moduleName": "CoreFormatters",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "formatString",
+            "printedName": "formatString(string:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14CoreFormatters4MaskC12formatString6stringS2S_tF",
+            "mangledName": "$s14CoreFormatters4MaskC12formatString6stringS2S_tF",
+            "moduleName": "CoreFormatters",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "formatStringWithRange",
+            "printedName": "formatStringWithRange(range:string:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "_NSRange",
+                "printedName": "Foundation._NSRange",
+                "usr": "c:@S@_NSRange"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14CoreFormatters4MaskC21formatStringWithRange5range6stringSSSo8_NSRangeV_SStF",
+            "mangledName": "$s14CoreFormatters4MaskC21formatStringWithRange5range6stringSSSo8_NSRangeV_SStF",
+            "moduleName": "CoreFormatters",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14CoreFormatters4MaskC",
+        "mangledName": "$s14CoreFormatters4MaskC",
+        "moduleName": "CoreFormatters",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CoreFormatters"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CoreFormatters"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CoreFormatters"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CoreFormatters"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CoreFormatters"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CoreFormatters"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "StringFormatter",
+        "printedName": "StringFormatter",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "toString",
+            "printedName": "toString()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14CoreFormatters15StringFormatterPAAE02toC0SSyF",
+            "mangledName": "$s14CoreFormatters15StringFormatterPAAE02toC0SSyF",
+            "moduleName": "CoreFormatters",
+            "genericSig": "<τ_0_0 where τ_0_0 : CoreFormatters.StringFormatter>",
+            "sugared_genericSig": "<Self where Self : CoreFormatters.StringFormatter>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:14CoreFormatters15StringFormatterP",
+        "mangledName": "$s14CoreFormatters15StringFormatterP",
+        "moduleName": "CoreFormatters",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CoreFormatters",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CoreFormatters"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CoreFormatters"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "CoreFormatters"
+      },
+      {
+        "kind": "Import",
+        "name": "DeveloperToolsSupport",
+        "printedName": "DeveloperToolsSupport",
+        "declKind": "Import",
+        "moduleName": "CoreFormatters"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Int",
+        "printedName": "Int",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "toGibibytes",
+            "printedName": "toGibibytes",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:Si14CoreFormattersE11toGibibytesSfvp",
+            "mangledName": "$sSi14CoreFormattersE11toGibibytesSfvp",
+            "moduleName": "CoreFormatters",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:Si14CoreFormattersE11toGibibytesSfvg",
+                "mangledName": "$sSi14CoreFormattersE11toGibibytesSfvg",
+                "moduleName": "CoreFormatters",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "currencyFormatterWithoutFraction",
+            "printedName": "currencyFormatterWithoutFraction()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:Si14CoreFormattersE32currencyFormatterWithoutFractionSSyF",
+            "mangledName": "$sSi14CoreFormattersE32currencyFormatterWithoutFractionSSyF",
+            "moduleName": "CoreFormatters",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "currencyFormatter",
+            "printedName": "currencyFormatter()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:Si14CoreFormattersE17currencyFormatterSSyF",
+            "mangledName": "$sSi14CoreFormattersE17currencyFormatterSSyF",
+            "moduleName": "CoreFormatters",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "currencyWithCentsFormatter",
+            "printedName": "currencyWithCentsFormatter()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:Si14CoreFormattersE26currencyWithCentsFormatterSSyF",
+            "mangledName": "$sSi14CoreFormattersE26currencyWithCentsFormatterSSyF",
+            "moduleName": "CoreFormatters",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:Si",
+        "mangledName": "$sSi",
+        "moduleName": "Swift",
+        "declAttributes": [
+          "Frozen"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "FixedWidthInteger",
+            "printedName": "FixedWidthInteger",
+            "usr": "s:s17FixedWidthIntegerP",
+            "mangledName": "$ss17FixedWidthIntegerP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SignedInteger",
+            "printedName": "SignedInteger",
+            "usr": "s:SZ",
+            "mangledName": "$sSZ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByBuiltinIntegerLiteral",
+            "printedName": "_ExpressibleByBuiltinIntegerLiteral",
+            "usr": "s:s35_ExpressibleByBuiltinIntegerLiteralP",
+            "mangledName": "$ss35_ExpressibleByBuiltinIntegerLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BinaryInteger",
+            "printedName": "BinaryInteger",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Words",
+                "printedName": "Words",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Words",
+                    "printedName": "Swift.Int.Words",
+                    "usr": "s:Si5WordsV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sz",
+            "mangledName": "$sSz"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LosslessStringConvertible",
+            "printedName": "LosslessStringConvertible",
+            "usr": "s:s25LosslessStringConvertibleP",
+            "mangledName": "$ss25LosslessStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SignedNumeric",
+            "printedName": "SignedNumeric",
+            "usr": "s:s13SignedNumericP",
+            "mangledName": "$ss13SignedNumericP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Numeric",
+            "printedName": "Numeric",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Magnitude",
+                "printedName": "Magnitude",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt",
+                    "printedName": "Swift.UInt",
+                    "usr": "s:Su"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sj",
+            "mangledName": "$sSj"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Strideable",
+            "printedName": "Strideable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Stride",
+                "printedName": "Stride",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sx",
+            "mangledName": "$sSx"
+          },
+          {
+            "kind": "Conformance",
+            "name": "AdditiveArithmetic",
+            "printedName": "AdditiveArithmetic",
+            "usr": "s:s18AdditiveArithmeticP",
+            "mangledName": "$ss18AdditiveArithmeticP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByIntegerLiteral",
+            "printedName": "ExpressibleByIntegerLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "IntegerLiteralType",
+                "printedName": "IntegerLiteralType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s27ExpressibleByIntegerLiteralP",
+            "mangledName": "$ss27ExpressibleByIntegerLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Comparable",
+            "printedName": "Comparable",
+            "usr": "s:SL",
+            "mangledName": "$sSL"
+          },
+          {
+            "kind": "Conformance",
+            "name": "StringFormatter",
+            "printedName": "StringFormatter",
+            "usr": "s:14CoreFormatters15StringFormatterP",
+            "mangledName": "$s14CoreFormatters15StringFormatterP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CodingKeyRepresentable",
+            "printedName": "CodingKeyRepresentable",
+            "usr": "s:s22CodingKeyRepresentableP",
+            "mangledName": "$ss22CodingKeyRepresentableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomReflectable",
+            "printedName": "CustomReflectable",
+            "usr": "s:s17CustomReflectableP",
+            "mangledName": "$ss17CustomReflectableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_CustomPlaygroundQuickLookable",
+            "printedName": "_CustomPlaygroundQuickLookable",
+            "usr": "s:s30_CustomPlaygroundQuickLookableP",
+            "mangledName": "$ss30_CustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "MirrorPath",
+            "printedName": "MirrorPath",
+            "usr": "s:s10MirrorPathP",
+            "mangledName": "$ss10MirrorPathP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_HasCustomAnyHashableRepresentation",
+            "printedName": "_HasCustomAnyHashableRepresentation",
+            "usr": "s:s35_HasCustomAnyHashableRepresentationP",
+            "mangledName": "$ss35_HasCustomAnyHashableRepresentationP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SIMDScalar",
+            "printedName": "SIMDScalar",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "SIMDMaskScalar",
+                "printedName": "SIMDMaskScalar",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SIMD2Storage",
+                "printedName": "SIMD2Storage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SIMD2Storage",
+                    "printedName": "Swift.Int.SIMD2Storage",
+                    "usr": "s:Si12SIMD2StorageV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SIMD4Storage",
+                "printedName": "SIMD4Storage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SIMD4Storage",
+                    "printedName": "Swift.Int.SIMD4Storage",
+                    "usr": "s:Si12SIMD4StorageV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SIMD8Storage",
+                "printedName": "SIMD8Storage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SIMD8Storage",
+                    "printedName": "Swift.Int.SIMD8Storage",
+                    "usr": "s:Si12SIMD8StorageV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SIMD16Storage",
+                "printedName": "SIMD16Storage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SIMD16Storage",
+                    "printedName": "Swift.Int.SIMD16Storage",
+                    "usr": "s:Si13SIMD16StorageV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SIMD32Storage",
+                "printedName": "SIMD32Storage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SIMD32Storage",
+                    "printedName": "Swift.Int.SIMD32Storage",
+                    "usr": "s:Si13SIMD32StorageV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SIMD64Storage",
+                "printedName": "SIMD64Storage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SIMD64Storage",
+                    "printedName": "Swift.Int.SIMD64Storage",
+                    "usr": "s:Si13SIMD64StorageV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s10SIMDScalarP",
+            "mangledName": "$ss10SIMDScalarP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_FormatSpecifiable",
+            "printedName": "_FormatSpecifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_Arg",
+                "printedName": "_Arg",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10Foundation18_FormatSpecifiableP",
+            "mangledName": "$s10Foundation18_FormatSpecifiableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ObjectiveCBridgeable",
+            "printedName": "_ObjectiveCBridgeable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_ObjectiveCType",
+                "printedName": "_ObjectiveCType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSNumber",
+                    "printedName": "Foundation.NSNumber",
+                    "usr": "c:objc(cs)NSNumber"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s21_ObjectiveCBridgeableP",
+            "mangledName": "$ss21_ObjectiveCBridgeableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_FormatSpecifiable",
+            "printedName": "_FormatSpecifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_Arg",
+                "printedName": "_Arg",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI18_FormatSpecifiableP",
+            "mangledName": "$s7SwiftUI18_FormatSpecifiableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Date",
+        "printedName": "Date",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "formatted",
+            "printedName": "formatted(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10Foundation4DateV14CoreFormattersE9formatted4withS2S_tF",
+            "mangledName": "$s10Foundation4DateV14CoreFormattersE9formatted4withS2S_tF",
+            "moduleName": "CoreFormatters",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "toString",
+            "printedName": "toString()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10Foundation4DateV14CoreFormattersE8toStringSSyF",
+            "mangledName": "$s10Foundation4DateV14CoreFormattersE8toStringSSyF",
+            "moduleName": "CoreFormatters",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:10Foundation4DateV",
+        "mangledName": "$s10Foundation4DateV",
+        "moduleName": "Foundation",
+        "intro_Macosx": "10.10",
+        "intro_iOS": "8.0",
+        "intro_tvOS": "9.0",
+        "intro_watchOS": "2.0",
+        "declAttributes": [
+          "Available",
+          "Available",
+          "Available",
+          "Available"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Comparable",
+            "printedName": "Comparable",
+            "usr": "s:SL",
+            "mangledName": "$sSL"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomReflectable",
+            "printedName": "CustomReflectable",
+            "usr": "s:s17CustomReflectableP",
+            "mangledName": "$ss17CustomReflectableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ReferenceConvertible",
+            "printedName": "ReferenceConvertible",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ReferenceType",
+                "printedName": "ReferenceType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSDate",
+                    "printedName": "Foundation.NSDate",
+                    "usr": "c:objc(cs)NSDate"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10Foundation20ReferenceConvertibleP",
+            "mangledName": "$s10Foundation20ReferenceConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ObjectiveCBridgeable",
+            "printedName": "_ObjectiveCBridgeable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_ObjectiveCType",
+                "printedName": "_ObjectiveCType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSDate",
+                    "printedName": "Foundation.NSDate",
+                    "usr": "c:objc(cs)NSDate"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s21_ObjectiveCBridgeableP",
+            "mangledName": "$ss21_ObjectiveCBridgeableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_CustomPlaygroundQuickLookable",
+            "printedName": "_CustomPlaygroundQuickLookable",
+            "usr": "s:s30_CustomPlaygroundQuickLookableP",
+            "mangledName": "$ss30_CustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Strideable",
+            "printedName": "Strideable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Stride",
+                "printedName": "Stride",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sx",
+            "mangledName": "$sSx"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DateFormatter",
+        "printedName": "DateFormatter",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "formatWithString",
+            "printedName": "formatWithString(dateFormat:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DateFormatter",
+                "printedName": "Foundation.DateFormatter",
+                "usr": "c:objc(cs)NSDateFormatter"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So15NSDateFormatterC14CoreFormattersE16formatWithString10dateFormatABSS_tFZ",
+            "mangledName": "$sSo15NSDateFormatterC14CoreFormattersE16formatWithString10dateFormatABSS_tFZ",
+            "moduleName": "CoreFormatters",
+            "static": true,
+            "declAttributes": [
+              "Final"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)NSDateFormatter",
+        "moduleName": "Foundation",
+        "isOpen": true,
+        "objc_name": "NSDateFormatter",
+        "declAttributes": [
+          "ObjC",
+          "SynthesizedProtocol",
+          "NonSendable",
+          "Sendable",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSFormatter",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "Foundation.Formatter",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Float",
+        "printedName": "Float",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "rounded",
+            "printedName": "rounded(toPlaces:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:Sf14CoreFormattersE7rounded8toPlacesS2f_tF",
+            "mangledName": "$sSf14CoreFormattersE7rounded8toPlacesS2f_tF",
+            "moduleName": "CoreFormatters",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "cleanTrailingZeros",
+            "printedName": "cleanTrailingZeros",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:Sf14CoreFormattersE18cleanTrailingZerosSSvp",
+            "mangledName": "$sSf14CoreFormattersE18cleanTrailingZerosSSvp",
+            "moduleName": "CoreFormatters",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:Sf14CoreFormattersE18cleanTrailingZerosSSvg",
+                "mangledName": "$sSf14CoreFormattersE18cleanTrailingZerosSSvg",
+                "moduleName": "CoreFormatters",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "currencyWithCentsFormatter",
+            "printedName": "currencyWithCentsFormatter()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:Sf14CoreFormattersE26currencyWithCentsFormatterSSyF",
+            "mangledName": "$sSf14CoreFormattersE26currencyWithCentsFormatterSSyF",
+            "moduleName": "CoreFormatters",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:Sf",
+        "mangledName": "$sSf",
+        "moduleName": "Swift",
+        "declAttributes": [
+          "Frozen"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "StringFormatter",
+            "printedName": "StringFormatter",
+            "usr": "s:14CoreFormatters15StringFormatterP",
+            "mangledName": "$s14CoreFormatters15StringFormatterP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomReflectable",
+            "printedName": "CustomReflectable",
+            "usr": "s:s17CustomReflectableP",
+            "mangledName": "$ss17CustomReflectableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_CustomPlaygroundQuickLookable",
+            "printedName": "_CustomPlaygroundQuickLookable",
+            "usr": "s:s30_CustomPlaygroundQuickLookableP",
+            "mangledName": "$ss30_CustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_CVarArgPassedAsDouble",
+            "printedName": "_CVarArgPassedAsDouble",
+            "usr": "s:s22_CVarArgPassedAsDoubleP",
+            "mangledName": "$ss22_CVarArgPassedAsDoubleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_CVarArgAligned",
+            "printedName": "_CVarArgAligned",
+            "usr": "s:s15_CVarArgAlignedP",
+            "mangledName": "$ss15_CVarArgAlignedP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LosslessStringConvertible",
+            "printedName": "LosslessStringConvertible",
+            "usr": "s:s25LosslessStringConvertibleP",
+            "mangledName": "$ss25LosslessStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "TextOutputStreamable",
+            "printedName": "TextOutputStreamable",
+            "usr": "s:s20TextOutputStreamableP",
+            "mangledName": "$ss20TextOutputStreamableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BinaryFloatingPoint",
+            "printedName": "BinaryFloatingPoint",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawSignificand",
+                "printedName": "RawSignificand",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt32",
+                    "printedName": "Swift.UInt32",
+                    "usr": "s:s6UInt32V"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "RawExponent",
+                "printedName": "RawExponent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt",
+                    "printedName": "Swift.UInt",
+                    "usr": "s:Su"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SB",
+            "mangledName": "$sSB"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByFloatLiteral",
+            "printedName": "ExpressibleByFloatLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "FloatLiteralType",
+                "printedName": "FloatLiteralType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s25ExpressibleByFloatLiteralP",
+            "mangledName": "$ss25ExpressibleByFloatLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "FloatingPoint",
+            "printedName": "FloatingPoint",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Exponent",
+                "printedName": "Exponent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SF",
+            "mangledName": "$sSF"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SignedNumeric",
+            "printedName": "SignedNumeric",
+            "usr": "s:s13SignedNumericP",
+            "mangledName": "$ss13SignedNumericP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Numeric",
+            "printedName": "Numeric",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Magnitude",
+                "printedName": "Magnitude",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sj",
+            "mangledName": "$sSj"
+          },
+          {
+            "kind": "Conformance",
+            "name": "AdditiveArithmetic",
+            "printedName": "AdditiveArithmetic",
+            "usr": "s:s18AdditiveArithmeticP",
+            "mangledName": "$ss18AdditiveArithmeticP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByBuiltinIntegerLiteral",
+            "printedName": "_ExpressibleByBuiltinIntegerLiteral",
+            "usr": "s:s35_ExpressibleByBuiltinIntegerLiteralP",
+            "mangledName": "$ss35_ExpressibleByBuiltinIntegerLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByIntegerLiteral",
+            "printedName": "ExpressibleByIntegerLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "IntegerLiteralType",
+                "printedName": "IntegerLiteralType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s27ExpressibleByIntegerLiteralP",
+            "mangledName": "$ss27ExpressibleByIntegerLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByBuiltinFloatLiteral",
+            "printedName": "_ExpressibleByBuiltinFloatLiteral",
+            "usr": "s:s33_ExpressibleByBuiltinFloatLiteralP",
+            "mangledName": "$ss33_ExpressibleByBuiltinFloatLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_HasCustomAnyHashableRepresentation",
+            "printedName": "_HasCustomAnyHashableRepresentation",
+            "usr": "s:s35_HasCustomAnyHashableRepresentationP",
+            "mangledName": "$ss35_HasCustomAnyHashableRepresentationP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Strideable",
+            "printedName": "Strideable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Stride",
+                "printedName": "Stride",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sx",
+            "mangledName": "$sSx"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Comparable",
+            "printedName": "Comparable",
+            "usr": "s:SL",
+            "mangledName": "$sSL"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SIMDScalar",
+            "printedName": "SIMDScalar",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "SIMDMaskScalar",
+                "printedName": "SIMDMaskScalar",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int32",
+                    "printedName": "Swift.Int32",
+                    "usr": "s:s5Int32V"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SIMD2Storage",
+                "printedName": "SIMD2Storage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SIMD2Storage",
+                    "printedName": "Swift.Float.SIMD2Storage",
+                    "usr": "s:Sf12SIMD2StorageV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SIMD4Storage",
+                "printedName": "SIMD4Storage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SIMD4Storage",
+                    "printedName": "Swift.Float.SIMD4Storage",
+                    "usr": "s:Sf12SIMD4StorageV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SIMD8Storage",
+                "printedName": "SIMD8Storage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SIMD8Storage",
+                    "printedName": "Swift.Float.SIMD8Storage",
+                    "usr": "s:Sf12SIMD8StorageV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SIMD16Storage",
+                "printedName": "SIMD16Storage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SIMD16Storage",
+                    "printedName": "Swift.Float.SIMD16Storage",
+                    "usr": "s:Sf13SIMD16StorageV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SIMD32Storage",
+                "printedName": "SIMD32Storage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SIMD32Storage",
+                    "printedName": "Swift.Float.SIMD32Storage",
+                    "usr": "s:Sf13SIMD32StorageV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SIMD64Storage",
+                "printedName": "SIMD64Storage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SIMD64Storage",
+                    "printedName": "Swift.Float.SIMD64Storage",
+                    "usr": "s:Sf13SIMD64StorageV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s10SIMDScalarP",
+            "mangledName": "$ss10SIMDScalarP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_FormatSpecifiable",
+            "printedName": "_FormatSpecifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_Arg",
+                "printedName": "_Arg",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10Foundation18_FormatSpecifiableP",
+            "mangledName": "$s10Foundation18_FormatSpecifiableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ObjectiveCBridgeable",
+            "printedName": "_ObjectiveCBridgeable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_ObjectiveCType",
+                "printedName": "_ObjectiveCType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSNumber",
+                    "printedName": "Foundation.NSNumber",
+                    "usr": "c:objc(cs)NSNumber"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s21_ObjectiveCBridgeableP",
+            "mangledName": "$ss21_ObjectiveCBridgeableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "VectorArithmetic",
+            "printedName": "VectorArithmetic",
+            "usr": "s:7SwiftUI16VectorArithmeticP",
+            "mangledName": "$s7SwiftUI16VectorArithmeticP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_FormatSpecifiable",
+            "printedName": "_FormatSpecifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_Arg",
+                "printedName": "_Arg",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI18_FormatSpecifiableP",
+            "mangledName": "$s7SwiftUI18_FormatSpecifiableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "String",
+        "printedName": "String",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "formatLineNumber",
+            "printedName": "formatLineNumber()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:SS14CoreFormattersE16formatLineNumberSSyF",
+            "mangledName": "$sSS14CoreFormattersE16formatLineNumberSSyF",
+            "moduleName": "CoreFormatters",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "formatLineNumberWithCountryCode",
+            "printedName": "formatLineNumberWithCountryCode()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:SS14CoreFormattersE31formatLineNumberWithCountryCodeSSyF",
+            "mangledName": "$sSS14CoreFormattersE31formatLineNumberWithCountryCodeSSyF",
+            "moduleName": "CoreFormatters",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "formatCPFDocument",
+            "printedName": "formatCPFDocument()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:SS14CoreFormattersE17formatCPFDocumentSSyF",
+            "mangledName": "$sSS14CoreFormattersE17formatCPFDocumentSSyF",
+            "moduleName": "CoreFormatters",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "formatMaskedCPFDocument",
+            "printedName": "formatMaskedCPFDocument()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:SS14CoreFormattersE23formatMaskedCPFDocumentSSyF",
+            "mangledName": "$sSS14CoreFormattersE23formatMaskedCPFDocumentSSyF",
+            "moduleName": "CoreFormatters",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isRegExPasswordValid",
+            "printedName": "isRegExPasswordValid()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:SS14CoreFormattersE20isRegExPasswordValidSbyF",
+            "mangledName": "$sSS14CoreFormattersE20isRegExPasswordValidSbyF",
+            "moduleName": "CoreFormatters",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isRegExEmailValid",
+            "printedName": "isRegExEmailValid()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:SS14CoreFormattersE17isRegExEmailValidSbyF",
+            "mangledName": "$sSS14CoreFormattersE17isRegExEmailValidSbyF",
+            "moduleName": "CoreFormatters",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isCreditCardHolderNameValid",
+            "printedName": "isCreditCardHolderNameValid()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:SS14CoreFormattersE27isCreditCardHolderNameValidSbyF",
+            "mangledName": "$sSS14CoreFormattersE27isCreditCardHolderNameValidSbyF",
+            "moduleName": "CoreFormatters",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isCreditCardExpirationValid",
+            "printedName": "isCreditCardExpirationValid()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:SS14CoreFormattersE27isCreditCardExpirationValidSbyF",
+            "mangledName": "$sSS14CoreFormattersE27isCreditCardExpirationValidSbyF",
+            "moduleName": "CoreFormatters",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isCreditCardNumberValid",
+            "printedName": "isCreditCardNumberValid()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:SS14CoreFormattersE23isCreditCardNumberValidSbyF",
+            "mangledName": "$sSS14CoreFormattersE23isCreditCardNumberValidSbyF",
+            "moduleName": "CoreFormatters",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onlyNumbers",
+            "printedName": "onlyNumbers()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:SS14CoreFormattersE11onlyNumbersSSyF",
+            "mangledName": "$sSS14CoreFormattersE11onlyNumbersSSyF",
+            "moduleName": "CoreFormatters",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "validate",
+            "printedName": "validate(text:withRegex:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:SS14CoreFormattersE8validate4text9withRegexSbSS_SStF",
+            "mangledName": "$sSS14CoreFormattersE8validate4text9withRegexSbSS_SStF",
+            "moduleName": "CoreFormatters",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isRegExPhoneNumberValid",
+            "printedName": "isRegExPhoneNumberValid()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:SS14CoreFormattersE23isRegExPhoneNumberValidSbyF",
+            "mangledName": "$sSS14CoreFormattersE23isRegExPhoneNumberValidSbyF",
+            "moduleName": "CoreFormatters",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "isCPFValid",
+            "printedName": "isCPFValid",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:SS14CoreFormattersE10isCPFValidSbvp",
+            "mangledName": "$sSS14CoreFormattersE10isCPFValidSbvp",
+            "moduleName": "CoreFormatters",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:SS14CoreFormattersE10isCPFValidSbvg",
+                "mangledName": "$sSS14CoreFormattersE10isCPFValidSbvg",
+                "moduleName": "CoreFormatters",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:SS",
+        "mangledName": "$sSS",
+        "moduleName": "Swift",
+        "declAttributes": [
+          "Frozen"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "StringProtocol",
+            "printedName": "StringProtocol",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "UTF8View",
+                "printedName": "UTF8View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UTF8View",
+                    "printedName": "Swift.String.UTF8View",
+                    "usr": "s:SS8UTF8ViewV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "UTF16View",
+                "printedName": "UTF16View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UTF16View",
+                    "printedName": "Swift.String.UTF16View",
+                    "usr": "s:SS9UTF16ViewV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "UnicodeScalarView",
+                "printedName": "UnicodeScalarView",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UnicodeScalarView",
+                    "printedName": "Swift.String.UnicodeScalarView",
+                    "usr": "s:SS17UnicodeScalarViewV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Substring",
+                    "printedName": "Swift.Substring",
+                    "usr": "s:Ss"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sy",
+            "mangledName": "$sSy"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByStringInterpolation",
+            "printedName": "ExpressibleByStringInterpolation",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "StringInterpolation",
+                "printedName": "StringInterpolation",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DefaultStringInterpolation",
+                    "printedName": "Swift.DefaultStringInterpolation",
+                    "usr": "s:s26DefaultStringInterpolationV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s32ExpressibleByStringInterpolationP",
+            "mangledName": "$ss32ExpressibleByStringInterpolationP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LosslessStringConvertible",
+            "printedName": "LosslessStringConvertible",
+            "usr": "s:s25LosslessStringConvertibleP",
+            "mangledName": "$ss25LosslessStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CodingKeyRepresentable",
+            "printedName": "CodingKeyRepresentable",
+            "usr": "s:s22CodingKeyRepresentableP",
+            "mangledName": "$ss22CodingKeyRepresentableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_HasContiguousBytes",
+            "printedName": "_HasContiguousBytes",
+            "usr": "s:s19_HasContiguousBytesP",
+            "mangledName": "$ss19_HasContiguousBytesP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomReflectable",
+            "printedName": "CustomReflectable",
+            "usr": "s:s17CustomReflectableP",
+            "mangledName": "$ss17CustomReflectableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_CustomPlaygroundQuickLookable",
+            "printedName": "_CustomPlaygroundQuickLookable",
+            "usr": "s:s30_CustomPlaygroundQuickLookableP",
+            "mangledName": "$ss30_CustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "TextOutputStream",
+            "printedName": "TextOutputStream",
+            "usr": "s:s16TextOutputStreamP",
+            "mangledName": "$ss16TextOutputStreamP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "TextOutputStreamable",
+            "printedName": "TextOutputStreamable",
+            "usr": "s:s20TextOutputStreamableP",
+            "mangledName": "$ss20TextOutputStreamableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByBuiltinUnicodeScalarLiteral",
+            "printedName": "_ExpressibleByBuiltinUnicodeScalarLiteral",
+            "usr": "s:s41_ExpressibleByBuiltinUnicodeScalarLiteralP",
+            "mangledName": "$ss41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByBuiltinExtendedGraphemeClusterLiteral",
+            "printedName": "_ExpressibleByBuiltinExtendedGraphemeClusterLiteral",
+            "usr": "s:s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP",
+            "mangledName": "$ss51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByBuiltinStringLiteral",
+            "printedName": "_ExpressibleByBuiltinStringLiteral",
+            "usr": "s:s34_ExpressibleByBuiltinStringLiteralP",
+            "mangledName": "$ss34_ExpressibleByBuiltinStringLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByStringLiteral",
+            "printedName": "ExpressibleByStringLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "StringLiteralType",
+                "printedName": "StringLiteralType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s26ExpressibleByStringLiteralP",
+            "mangledName": "$ss26ExpressibleByStringLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByExtendedGraphemeClusterLiteral",
+            "printedName": "ExpressibleByExtendedGraphemeClusterLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ExtendedGraphemeClusterLiteralType",
+                "printedName": "ExtendedGraphemeClusterLiteralType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s43ExpressibleByExtendedGraphemeClusterLiteralP",
+            "mangledName": "$ss43ExpressibleByExtendedGraphemeClusterLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByUnicodeScalarLiteral",
+            "printedName": "ExpressibleByUnicodeScalarLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "UnicodeScalarLiteralType",
+                "printedName": "UnicodeScalarLiteralType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s33ExpressibleByUnicodeScalarLiteralP",
+            "mangledName": "$ss33ExpressibleByUnicodeScalarLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BidirectionalCollection",
+            "printedName": "BidirectionalCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Character",
+                    "printedName": "Swift.Character",
+                    "usr": "s:SJ"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Index",
+                    "printedName": "Swift.String.Index",
+                    "usr": "s:SS5IndexV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Substring",
+                    "printedName": "Swift.Substring",
+                    "usr": "s:Ss"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Indices",
+                "printedName": "Indices",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DefaultIndices",
+                    "printedName": "Swift.DefaultIndices<Swift.String>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SI"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SK",
+            "mangledName": "$sSK"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Collection",
+            "printedName": "Collection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Character",
+                    "printedName": "Swift.Character",
+                    "usr": "s:SJ"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Index",
+                    "printedName": "Swift.String.Index",
+                    "usr": "s:SS5IndexV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Iterator",
+                "printedName": "Iterator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Iterator",
+                    "printedName": "Swift.String.Iterator",
+                    "usr": "s:SS8IteratorV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Substring",
+                    "printedName": "Swift.Substring",
+                    "usr": "s:Ss"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Indices",
+                "printedName": "Indices",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DefaultIndices",
+                    "printedName": "Swift.DefaultIndices<Swift.String>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SI"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sl",
+            "mangledName": "$sSl"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sequence",
+            "printedName": "Sequence",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Character",
+                    "printedName": "Swift.Character",
+                    "usr": "s:SJ"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Iterator",
+                "printedName": "Iterator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Iterator",
+                    "printedName": "Swift.String.Iterator",
+                    "usr": "s:SS8IteratorV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:ST",
+            "mangledName": "$sST"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Comparable",
+            "printedName": "Comparable",
+            "usr": "s:SL",
+            "mangledName": "$sSL"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RangeReplaceableCollection",
+            "printedName": "RangeReplaceableCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Substring",
+                    "printedName": "Swift.Substring",
+                    "usr": "s:Ss"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sm",
+            "mangledName": "$sSm"
+          },
+          {
+            "kind": "Conformance",
+            "name": "MirrorPath",
+            "printedName": "MirrorPath",
+            "usr": "s:s10MirrorPathP",
+            "mangledName": "$ss10MirrorPathP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ObjectiveCBridgeable",
+            "printedName": "_ObjectiveCBridgeable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_ObjectiveCType",
+                "printedName": "_ObjectiveCType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSString",
+                    "printedName": "Foundation.NSString",
+                    "usr": "c:objc(cs)NSString"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s21_ObjectiveCBridgeableP",
+            "mangledName": "$ss21_ObjectiveCBridgeableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Transferable",
+            "printedName": "Transferable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Representation",
+                "printedName": "Representation",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some CoreTransferable.TransferRepresentation",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransferRepresentation",
+                        "printedName": "CoreTransferable.TransferRepresentation",
+                        "usr": "s:16CoreTransferable22TransferRepresentationP"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Sendable",
+                        "printedName": "Swift.Sendable",
+                        "usr": "s:s8SendableP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:16CoreTransferable0B0P",
+            "mangledName": "$s16CoreTransferable0B0P"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Resources\/Generated\/AutoEquatable.generated.swift",
+      "kind": "BooleanLiteral",
+      "offset": 368,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Resources\/Generated\/AutoEquatable.generated.swift",
+      "kind": "BooleanLiteral",
+      "offset": 401,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Resources\/Generated\/AutoEquatable.generated.swift",
+      "kind": "BooleanLiteral",
+      "offset": 566,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Resources\/Generated\/AutoEquatable.generated.swift",
+      "kind": "BooleanLiteral",
+      "offset": 674,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Resources\/Generated\/AutoEquatable.generated.swift",
+      "kind": "BooleanLiteral",
+      "offset": 700,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/ByteFormatter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 94,
+      "length": 5,
+      "value": "1024"
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/Currency+Ext.swift",
+      "kind": "IntegerLiteral",
+      "offset": 131,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/Currency+Ext.swift",
+      "kind": "IntegerLiteral",
+      "offset": 310,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/Currency+Ext.swift",
+      "kind": "StringLiteral",
+      "offset": 347,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/Currency+Ext.swift",
+      "kind": "IntegerLiteral",
+      "offset": 404,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/Currency+Ext.swift",
+      "kind": "StringLiteral",
+      "offset": 460,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/Currency+Ext.swift",
+      "kind": "IntegerLiteral",
+      "offset": 646,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/Currency+Ext.swift",
+      "kind": "StringLiteral",
+      "offset": 683,
+      "length": 4,
+      "value": "\"R$\""
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/Currency+Ext.swift",
+      "kind": "IntegerLiteral",
+      "offset": 731,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/Currency+Ext.swift",
+      "kind": "StringLiteral",
+      "offset": 901,
+      "length": 3,
+      "value": "\".\""
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/Currency+Ext.swift",
+      "kind": "StringLiteral",
+      "offset": 912,
+      "length": 3,
+      "value": "\",\""
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/Currency+Ext.swift",
+      "kind": "StringLiteral",
+      "offset": 967,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/Date+Ext.swift",
+      "kind": "StringLiteral",
+      "offset": 333,
+      "length": 28,
+      "value": "\"yyyy-MM-dd'T'HH:mm:ss.SSSZ\""
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/Date+Ext.swift",
+      "kind": "StringLiteral",
+      "offset": 412,
+      "length": 13,
+      "value": "\"en_US_POSIX\""
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/DateFormatter+Ext.swift",
+      "kind": "StringLiteral",
+      "offset": 253,
+      "length": 7,
+      "value": "\"pt_BR\""
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/Float.swift",
+      "kind": "FloatLiteral",
+      "offset": 123,
+      "length": 4,
+      "value": "10.0"
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/Float.swift",
+      "kind": "IntegerLiteral",
+      "offset": 273,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/Float.swift",
+      "kind": "IntegerLiteral",
+      "offset": 279,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/Float.swift",
+      "kind": "StringLiteral",
+      "offset": 298,
+      "length": 6,
+      "value": "\"%.0f\""
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/Float.swift",
+      "kind": "IntegerLiteral",
+      "offset": 510,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/Float.swift",
+      "kind": "StringLiteral",
+      "offset": 547,
+      "length": 4,
+      "value": "\"R$\""
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/Float.swift",
+      "kind": "StringLiteral",
+      "offset": 652,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/Mask\/Mask+LineNumber.swift",
+      "kind": "StringLiteral",
+      "offset": 167,
+      "length": 17,
+      "value": "\"($$) $$$$$-$$$$\""
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/Mask\/Mask+LineNumber.swift",
+      "kind": "StringLiteral",
+      "offset": 381,
+      "length": 19,
+      "value": "\"+55 $$ $$$$$-$$$$\""
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/Mask\/Mask+TaxId.swift",
+      "kind": "StringLiteral",
+      "offset": 168,
+      "length": 16,
+      "value": "\"$$$.$$$.$$$-$$\""
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/Mask\/Mask+TaxId.swift",
+      "kind": "StringLiteral",
+      "offset": 379,
+      "length": 16,
+      "value": "\"$$$.$$$.$$$-$$\""
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/Mask\/Mask+TaxId.swift",
+      "kind": "StringLiteral",
+      "offset": 532,
+      "length": 3,
+      "value": "\"X\""
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/Mask\/Mask+TaxId.swift",
+      "kind": "IntegerLiteral",
+      "offset": 544,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/Mask\/Mask+TaxId.swift",
+      "kind": "IntegerLiteral",
+      "offset": 548,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/Mask\/Mask+TaxId.swift",
+      "kind": "StringLiteral",
+      "offset": 614,
+      "length": 3,
+      "value": "\"X\""
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/Mask\/Mask+TaxId.swift",
+      "kind": "IntegerLiteral",
+      "offset": 626,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/Mask\/Mask+TaxId.swift",
+      "kind": "IntegerLiteral",
+      "offset": 630,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/Mask\/Mask.swift",
+      "kind": "StringLiteral",
+      "offset": 637,
+      "length": 3,
+      "value": "\"$\""
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/Mask\/Mask.swift",
+      "kind": "StringLiteral",
+      "offset": 699,
+      "length": 3,
+      "value": "\"*\""
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/Mask\/Mask.swift",
+      "kind": "StringLiteral",
+      "offset": 1165,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/Mask\/Mask.swift",
+      "kind": "StringLiteral",
+      "offset": 1313,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/Mask\/Mask.swift",
+      "kind": "Array",
+      "offset": 2053,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/Mask\/Mask.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2088,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/Mask\/Mask.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2121,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/Mask\/Mask.swift",
+      "kind": "StringLiteral",
+      "offset": 2434,
+      "length": 3,
+      "value": "\"$\""
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/Mask\/Mask.swift",
+      "kind": "StringLiteral",
+      "offset": 2748,
+      "length": 3,
+      "value": "\"*\""
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/Mask\/Mask.swift",
+      "kind": "StringLiteral",
+      "offset": 2906,
+      "length": 10,
+      "value": "\"[a-zA-Z]\""
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/Mask\/Mask.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3340,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/Mask\/Mask.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3443,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/Mask\/Mask.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3513,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/Mask\/Mask.swift",
+      "kind": "StringLiteral",
+      "offset": 4132,
+      "length": 5,
+      "value": "\"\\b\""
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/Mask\/Mask.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4166,
+      "length": 3,
+      "value": "-92"
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/Mask\/Mask.swift",
+      "kind": "StringLiteral",
+      "offset": 4365,
+      "length": 9,
+      "value": "\"\\*|\\$\""
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/Mask\/Mask.swift",
+      "kind": "StringLiteral",
+      "offset": 4479,
+      "length": 3,
+      "value": "\"$\""
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/Mask\/Mask.swift",
+      "kind": "StringLiteral",
+      "offset": 4678,
+      "length": 3,
+      "value": "\"*\""
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/Mask\/Mask.swift",
+      "kind": "StringLiteral",
+      "offset": 4781,
+      "length": 10,
+      "value": "\"[a-zA-Z]\""
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/Mask\/Mask.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4846,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/Mask\/Mask.swift",
+      "kind": "StringLiteral",
+      "offset": 5076,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/Mask\/Mask.swift",
+      "kind": "StringLiteral",
+      "offset": 5326,
+      "length": 40,
+      "value": "\"[a-zA-Z0-9]((?=.*?\\*.*)|(?=.*?\\$.*))\""
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/Mask\/Mask.swift",
+      "kind": "StringLiteral",
+      "offset": 5609,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/Mask\/Mask.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5676,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/Mask\/Mask.swift",
+      "kind": "StringLiteral",
+      "offset": 6813,
+      "length": 35,
+      "value": "\"((-)|(\\()|(\\)))?(\\*.*)|(\\$.*)\""
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/Mask\/Mask.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6987,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/Mask\/Mask.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7022,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/Mask\/Mask.swift",
+      "kind": "StringLiteral",
+      "offset": 7100,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/Mask\/Mask.swift",
+      "kind": "StringLiteral",
+      "offset": 7377,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/Mask\/Mask.swift",
+      "kind": "Array",
+      "offset": 7850,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/Mask\/Mask.swift",
+      "kind": "Array",
+      "offset": 7957,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/Mask\/Mask.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7980,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/Mask\/Mask.swift",
+      "kind": "Array",
+      "offset": 8107,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/Mask\/Mask.swift",
+      "kind": "StringLiteral",
+      "offset": 8320,
+      "length": 20,
+      "value": "\"[^\\$|\\*|\\-|\\.]\""
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/Mask\/Mask.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8405,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/Mask\/Mask.swift",
+      "kind": "StringLiteral",
+      "offset": 8432,
+      "length": 40,
+      "value": "\"Warning: not a valid pattern for Mask!\""
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/Mask\/Mask.swift",
+      "kind": "StringLiteral",
+      "offset": 8659,
+      "length": 5,
+      "value": "\"\\W\""
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/Mask\/Mask.swift",
+      "kind": "StringLiteral",
+      "offset": 8801,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/Mask\/Mask.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8964,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/Mask\/Mask.swift",
+      "kind": "Array",
+      "offset": 9043,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/String+Auth.swift",
+      "kind": "StringLiteral",
+      "offset": 128,
+      "length": 7,
+      "value": "\".{8,}\""
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/String+Auth.swift",
+      "kind": "StringLiteral",
+      "offset": 248,
+      "length": 51,
+      "value": "\"[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,64}\""
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/String+CreditCard.swift",
+      "kind": "Array",
+      "offset": 128,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/String+CreditCard.swift",
+      "kind": "IntegerLiteral",
+      "offset": 295,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/String+CreditCard.swift",
+      "kind": "BooleanLiteral",
+      "offset": 299,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/String+CreditCard.swift",
+      "kind": "BooleanLiteral",
+      "offset": 306,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/String+CreditCard.swift",
+      "kind": "StringLiteral",
+      "offset": 447,
+      "length": 9,
+      "value": "\"MM\/yyyy\""
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/String+CreditCard.swift",
+      "kind": "BooleanLiteral",
+      "offset": 535,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/String+CreditCard.swift",
+      "kind": "IntegerLiteral",
+      "offset": 616,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/String+CreditCard.swift",
+      "kind": "BooleanLiteral",
+      "offset": 697,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/String+CreditCard.swift",
+      "kind": "BooleanLiteral",
+      "offset": 705,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/String+CreditCard.swift",
+      "kind": "IntegerLiteral",
+      "offset": 796,
+      "length": 2,
+      "value": "13"
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/String+CreditCard.swift",
+      "kind": "BooleanLiteral",
+      "offset": 866,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/String+CreditCard.swift",
+      "kind": "BooleanLiteral",
+      "offset": 896,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/String+CreditCard.swift",
+      "kind": "Array",
+      "offset": 955,
+      "length": 361,
+      "value": "[\"0000 0000 0000 0000\", \"1111 1111 1111 1111\", \"2222 2222 2222 2222\", \"3333 3333 3333 3333\", \"4444 4444 4444 4444\", \"5555 5555 5555 5555\", \"6666 6666 6666 6666\", \"7777 7777 7777 7777\", \"8888 8888 8888 8888\", \"9999 9999 9999 9999\"]"
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/String+Ext.swift",
+      "kind": "StringLiteral",
+      "offset": 277,
+      "length": 17,
+      "value": "\"SELF MATCHES %@\""
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/String+LineNumber.swift",
+      "kind": "StringLiteral",
+      "offset": 276,
+      "length": 8,
+      "value": "\".{11,}\""
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/String+TaxId.swift",
+      "kind": "IntegerLiteral",
+      "offset": 220,
+      "length": 2,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/String+TaxId.swift",
+      "kind": "BooleanLiteral",
+      "offset": 237,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/String+TaxId.swift",
+      "kind": "IntegerLiteral",
+      "offset": 327,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/String+TaxId.swift",
+      "kind": "BooleanLiteral",
+      "offset": 343,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/String+TaxId.swift",
+      "kind": "IntegerLiteral",
+      "offset": 413,
+      "length": 1,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/String+TaxId.swift",
+      "kind": "IntegerLiteral",
+      "offset": 477,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/String+TaxId.swift",
+      "kind": "IntegerLiteral",
+      "offset": 542,
+      "length": 2,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/String+TaxId.swift",
+      "kind": "IntegerLiteral",
+      "offset": 645,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/String+TaxId.swift",
+      "kind": "IntegerLiteral",
+      "offset": 656,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/String+TaxId.swift",
+      "kind": "IntegerLiteral",
+      "offset": 676,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/String+TaxId.swift",
+      "kind": "IntegerLiteral",
+      "offset": 680,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/String+TaxId.swift",
+      "kind": "IntegerLiteral",
+      "offset": 823,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/String+TaxId.swift",
+      "kind": "IntegerLiteral",
+      "offset": 906,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/String+TaxId.swift",
+      "kind": "IntegerLiteral",
+      "offset": 944,
+      "length": 2,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/String+TaxId.swift",
+      "kind": "IntegerLiteral",
+      "offset": 980,
+      "length": 2,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/String+TaxId.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1007,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/String+TaxId.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1011,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/String+TaxId.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1015,
+      "length": 2,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/String+TaxId.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1050,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/String+TaxId.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1069,
+      "length": 2,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/String+TaxId.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1096,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/String+TaxId.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1100,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/String+TaxId.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1104,
+      "length": 2,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Formatters\/StringFormatter.swift",
+      "kind": "StringLiteral",
+      "offset": 182,
+      "length": 5,
+      "value": "\"NaN\""
+    },
+    {
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreFormatters\/Source\/Resources\/Generated\/Strings.generated.swift",
+      "kind": "IntegerLiteral",
+      "offset": 916,
+      "length": 1,
+      "value": "0"
+    }
+  ]
+}

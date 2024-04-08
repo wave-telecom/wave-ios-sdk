@@ -1,0 +1,22 @@
+#import "LegalPersonFragment.graphql"
+#import "PhoneFragment.graphql"
+#import "PortabilityErrorFragment.graphql"
+
+fragment PortabilityRequestFragment on NumberPortabilityRequest {
+    id
+    lineId
+    requestedAt
+    requestedBy
+    dueDate
+    executedAt
+    portedNumber {
+        ...PhoneFragment
+    }
+    portedNumberHolder {
+        ...LegalPersonFragment
+    }
+    status
+    errors {
+        ...PortabilityErrorFragment
+    }
+}
