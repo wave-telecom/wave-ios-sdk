@@ -1,0 +1,11 @@
+framework module CoreTestSupport {
+  umbrella header "CoreTestSupport.h"
+  export *
+
+  module * { export * }
+}
+
+module CoreTestSupport.Swift {
+  header "CoreTestSupport-Swift.h"
+  requires objc
+}
