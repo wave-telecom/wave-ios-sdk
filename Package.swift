@@ -4,13 +4,13 @@
 import PackageDescription
 
 let package = Package(
-    name: "CoreNetworking",
+    name: "WaveSDK",
     defaultLocalization: "en",
     platforms: [
         .iOS(.v15)
     ],
     products: [
-        .library(name: "CoreNetworking", targets: ["SDK"])
+        .library(name: "WaveSDK", targets: ["WaveSDK"])
     ],
     dependencies: [
         .package(url: "https://github.com/apollographql/apollo-ios.git", from: "1.7.1"),
@@ -33,12 +33,36 @@ let package = Package(
             url: "https://github.com/NomoTechnology/wave-ios-sdk/releases/download/v0.1.1/CoreNetworking.xcframework.zip",
             checksum: "c5a6518951bf9f149c9030b325c901eabf48f0a62e4a03578ac6e003b6569c40"
         ),
+        .binaryTarget(
+            name: "CoreFormatters",
+            url: "https://github.com/NomoTechnology/wave-ios-sdk/releases/download/v0.1.1/CoreFormatters.xcframework.zip",
+            checksum: "863e9ae1b0d788fce82cd5e261d9d81937d6f5c3ca7b08aaf752521fab87a0c7"
+        ),
+        .binaryTarget(
+            name: "SharedModels",
+            url: "https://github.com/NomoTechnology/wave-ios-sdk/releases/download/v0.1.1/SharedModels.xcframework.zip",
+            checksum: "b3daad2086bc42e1962cbb37a9541482c89608d759240eaace1aa9781825bc26"
+        ),
+        .binaryTarget(
+            name: "CoreSession",
+            url: "https://github.com/NomoTechnology/wave-ios-sdk/releases/download/v0.1.1/CoreSession.xcframework.zip",
+            checksum: "09ca57ff16cf422cd3f44d60d2a334a94e15bad9c200ffbb85ee084e51b05c71"
+        ),
+        .binaryTarget(
+            name: "WaveFoundation",
+            url: "https://github.com/NomoTechnology/wave-ios-sdk/releases/download/v0.1.1/WaveFoundation.xcframework.zip",
+            checksum: "e1167d399bcf51db16587c363144ffeb12b801b54ed8109d4d1feb40f349b9b4"
+        ),
         .target(
-            name: "SDK",
+            name: "WaveSDK",
             dependencies: [
                 .target(name: "CoreStorage"),
                 .target(name: "CoreLogger"),
                 .target(name: "CoreNetworking"),
+                .target(name: "CoreFormatters"),
+                .target(name: "SharedModels"),
+                .target(name: "CoreSession"),
+                .target(name: "WaveFoundation"),
                 .product(name: "Apollo", package: "apollo-ios"),
                 .product(name: "ApolloAPI", package: "apollo-ios"),
                 .product(name: "Bugsnag", package: "bugsnag-cocoa"),
