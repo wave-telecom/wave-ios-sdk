@@ -1,4 +1,0 @@
-framework module WaveFoundation {
-  header "WaveFoundation-Swift.h"
-  requires objc
-}

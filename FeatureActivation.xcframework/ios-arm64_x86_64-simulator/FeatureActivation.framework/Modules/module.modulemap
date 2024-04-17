@@ -1,4 +1,0 @@
-framework module FeatureActivation {
-  header "FeatureActivation-Swift.h"
-  requires objc
-}

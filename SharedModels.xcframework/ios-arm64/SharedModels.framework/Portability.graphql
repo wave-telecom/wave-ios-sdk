@@ -1,7 +1,0 @@
-#import "../Fragments/PortabilityRequestFragment.graphql"
-
-query Portability($lineId: String!) {
-    numberPortabilityRequests(lineId: $lineId) {
-        ...PortabilityRequestFragment
-    }
-}

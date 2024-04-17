@@ -1,4 +1,0 @@
-framework module WaveUI {
-  header "WaveUI-Swift.h"
-  requires objc
-}

@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/CoreLogger.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		HR1nMKgm5DdlYSZgylLsDzfovf0=
+		A/iFSH7wOwsDuZXcpMk93+MuSZg=
 		</data>
 		<key>Modules/CoreLogger.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/CoreLogger.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		HR1nMKgm5DdlYSZgylLsDzfovf0=
+		A/iFSH7wOwsDuZXcpMk93+MuSZg=
 		</data>
 		<key>Modules/CoreLogger.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -90,7 +90,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jHEeKpR1+Z53POmOaY6yLQFsQTTz5a1zzVw+4wHJ4vk=
+			veQpByeUoGnOPHyywQdXRs0C4L7sOOk05EBLDRBL+uk=
 			</data>
 		</dict>
 		<key>Modules/CoreLogger.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -125,7 +125,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jHEeKpR1+Z53POmOaY6yLQFsQTTz5a1zzVw+4wHJ4vk=
+			veQpByeUoGnOPHyywQdXRs0C4L7sOOk05EBLDRBL+uk=
 			</data>
 		</dict>
 		<key>Modules/CoreLogger.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>

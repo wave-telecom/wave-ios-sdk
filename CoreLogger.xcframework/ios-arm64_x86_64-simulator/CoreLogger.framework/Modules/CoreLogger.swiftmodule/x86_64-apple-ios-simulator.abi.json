@@ -837,259 +837,259 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Sources\/Resources\/Generated\/AutoEquatable.generated.swift",
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Source\/Resources\/Generated\/AutoEquatable.generated.swift",
       "kind": "BooleanLiteral",
       "offset": 368,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Sources\/Resources\/Generated\/AutoEquatable.generated.swift",
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Source\/Resources\/Generated\/AutoEquatable.generated.swift",
       "kind": "BooleanLiteral",
       "offset": 401,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Sources\/Resources\/Generated\/AutoEquatable.generated.swift",
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Source\/Resources\/Generated\/AutoEquatable.generated.swift",
       "kind": "BooleanLiteral",
       "offset": 566,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Sources\/Resources\/Generated\/AutoEquatable.generated.swift",
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Source\/Resources\/Generated\/AutoEquatable.generated.swift",
       "kind": "BooleanLiteral",
       "offset": 674,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Sources\/Resources\/Generated\/AutoEquatable.generated.swift",
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Source\/Resources\/Generated\/AutoEquatable.generated.swift",
       "kind": "BooleanLiteral",
       "offset": 700,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Sources\/Bugsnag\/BugsnagException.swift",
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Source\/Bugsnag\/BugsnagException.swift",
       "kind": "Dictionary",
       "offset": 317,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Sources\/Bugsnag\/BugsnagException.swift",
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Source\/Bugsnag\/BugsnagException.swift",
       "kind": "StringLiteral",
       "offset": 434,
       "length": 8,
       "value": "\"method\""
     },
     {
-      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Sources\/Log\/Logger.swift",
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Source\/Log\/Logger.swift",
       "kind": "StringLiteral",
       "offset": 710,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Sources\/Log\/Logger.swift",
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Source\/Log\/Logger.swift",
       "kind": "StringLiteral",
       "offset": 862,
       "length": 14,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Sources\/Log\/Logger.swift",
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Source\/Log\/Logger.swift",
       "kind": "StringLiteral",
       "offset": 868,
       "length": 1,
       "value": "\": \""
     },
     {
-      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Sources\/Log\/Logger.swift",
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Source\/Log\/Logger.swift",
       "kind": "StringLiteral",
       "offset": 875,
       "length": 3,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Sources\/Log\/Logger.swift",
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Source\/Log\/Logger.swift",
       "kind": "StringLiteral",
       "offset": 914,
       "length": 4,
       "value": "\", \""
     },
     {
-      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Sources\/Log\/Logger.swift",
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Source\/Log\/Logger.swift",
       "kind": "StringLiteral",
       "offset": 1096,
       "length": 14,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Sources\/Log\/Logger.swift",
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Source\/Log\/Logger.swift",
       "kind": "StringLiteral",
       "offset": 1102,
       "length": 1,
       "value": "\": \""
     },
     {
-      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Sources\/Log\/Logger.swift",
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Source\/Log\/Logger.swift",
       "kind": "StringLiteral",
       "offset": 1109,
       "length": 3,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Sources\/Log\/Logger.swift",
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Source\/Log\/Logger.swift",
       "kind": "StringLiteral",
       "offset": 1148,
       "length": 4,
       "value": "\", \""
     },
     {
-      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Sources\/Log\/Logger.swift",
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Source\/Log\/Logger.swift",
       "kind": "StringLiteral",
       "offset": 1228,
       "length": 113,
       "value": "\"title: \""
     },
     {
-      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Sources\/Log\/Logger.swift",
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Source\/Log\/Logger.swift",
       "kind": "StringLiteral",
       "offset": 1244,
       "length": 1,
       "value": "\", method: \""
     },
     {
-      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Sources\/Log\/Logger.swift",
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Source\/Log\/Logger.swift",
       "kind": "StringLiteral",
       "offset": 1263,
       "length": 1,
       "value": "\", message: \""
     },
     {
-      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Sources\/Log\/Logger.swift",
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Source\/Log\/Logger.swift",
       "kind": "StringLiteral",
       "offset": 1284,
       "length": 1,
       "value": "\", networkStatus: \""
     },
     {
-      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Sources\/Log\/Logger.swift",
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Source\/Log\/Logger.swift",
       "kind": "StringLiteral",
       "offset": 1317,
       "length": 1,
       "value": "\", metadata: \""
     },
     {
-      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Sources\/Log\/Logger.swift",
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Source\/Log\/Logger.swift",
       "kind": "StringLiteral",
       "offset": 1340,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Sources\/Log\/Logger.swift",
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Source\/Log\/Logger.swift",
       "kind": "StringLiteral",
       "offset": 1411,
       "length": 15,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Sources\/Log\/Logger.swift",
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Source\/Log\/Logger.swift",
       "kind": "StringLiteral",
       "offset": 1425,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Sources\/Log\/Logger.swift",
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Source\/Log\/Logger.swift",
       "kind": "StringLiteral",
       "offset": 1475,
       "length": 15,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Sources\/Log\/Logger.swift",
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Source\/Log\/Logger.swift",
       "kind": "StringLiteral",
       "offset": 1489,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Sources\/Log\/Logger.swift",
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Source\/Log\/Logger.swift",
       "kind": "StringLiteral",
       "offset": 1537,
       "length": 15,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Sources\/Log\/Logger.swift",
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Source\/Log\/Logger.swift",
       "kind": "StringLiteral",
       "offset": 1551,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Sources\/Log\/Logger.swift",
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Source\/Log\/Logger.swift",
       "kind": "StringLiteral",
       "offset": 1603,
       "length": 15,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Sources\/Log\/Logger.swift",
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Source\/Log\/Logger.swift",
       "kind": "StringLiteral",
       "offset": 1617,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Sources\/Log\/Logger.swift",
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Source\/Log\/Logger.swift",
       "kind": "StringLiteral",
       "offset": 1671,
       "length": 15,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Sources\/Log\/Logger.swift",
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Source\/Log\/Logger.swift",
       "kind": "StringLiteral",
       "offset": 1685,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Sources\/Log\/Logger.swift",
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Source\/Log\/Logger.swift",
       "kind": "StringLiteral",
       "offset": 1735,
       "length": 15,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Sources\/Log\/Logger.swift",
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Source\/Log\/Logger.swift",
       "kind": "StringLiteral",
       "offset": 1749,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Sources\/Log\/Logger.swift",
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Source\/Log\/Logger.swift",
       "kind": "StringLiteral",
       "offset": 1853,
       "length": 15,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Sources\/Log\/Logger.swift",
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Source\/Log\/Logger.swift",
       "kind": "StringLiteral",
       "offset": 1867,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Sources\/Resources\/Generated\/Strings.generated.swift",
+      "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreLogger\/Source\/Resources\/Generated\/Strings.generated.swift",
       "kind": "IntegerLiteral",
       "offset": 916,
       "length": 1,

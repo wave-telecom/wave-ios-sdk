@@ -1,9 +1,0 @@
-#import "Fragments/LegalPersonFragment.graphql"
-#import "Fragments/PhoneFragment.graphql"
-#import "Fragments/LineFragment.graphql"
-
-query Line($lineId: String!) {
-    line(id: $lineId) {
-        ...LineFragment
-    }
-}

@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/CoreNetworking.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		CgVJ/f3RN0enFlTGNwOnEbfXzBU=
+		20fX9sDTXud/gMG3lNKm5zXLGjU=
 		</data>
 		<key>Modules/CoreNetworking.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/CoreNetworking.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		CgVJ/f3RN0enFlTGNwOnEbfXzBU=
+		20fX9sDTXud/gMG3lNKm5zXLGjU=
 		</data>
 		<key>Modules/CoreNetworking.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -90,7 +90,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			enJmjr+cmNQmEMpmrByvXMpnh6mBOeq5axD5L1RxdJ4=
+			WD5a9DsggOzgoymHoN/ZXVywriZaxErhc5IIRvreKLc=
 			</data>
 		</dict>
 		<key>Modules/CoreNetworking.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -125,7 +125,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			enJmjr+cmNQmEMpmrByvXMpnh6mBOeq5axD5L1RxdJ4=
+			WD5a9DsggOzgoymHoN/ZXVywriZaxErhc5IIRvreKLc=
 			</data>
 		</dict>
 		<key>Modules/CoreNetworking.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>

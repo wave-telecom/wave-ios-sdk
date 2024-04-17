@@ -1,7 +1,0 @@
-fragment SubscriptionProductFragment on SubscriptionProductV2 {
-    id
-    name
-    unitType
-    unitAcquiredAmount
-    type
-}

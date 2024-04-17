@@ -1,7 +1,0 @@
-fragment ProductFragment on Product {
-    id
-    name
-    type
-    priceInCents
-    totalDataAcquiredInGibibytes
-}

@@ -1,6 +1,0 @@
-mutation PurchaseTopup($input: PurchaseTopupInput!) {
-    purchaseTopup(input: $input) {
-        success
-        message
-    }
-}

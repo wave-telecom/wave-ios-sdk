@@ -1,7 +1,0 @@
-#import "../Fragments/ProductFragment.graphql"
-
-query ProductsAvailable {
-    topup1GBProductDetails {
-        ...ProductFragment
-    }
-}

@@ -1,5 +1,0 @@
-fragment DailyUsageFragment on DailyUsage {
-    day
-    dataUsageInMebibytes
-    dataUsageInGibibytes
-}

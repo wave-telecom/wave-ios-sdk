@@ -9,14 +9,20 @@
         "name": "Apollo",
         "printedName": "Apollo",
         "declKind": "Import",
-        "moduleName": "CoreNetworking"
+        "moduleName": "CoreNetworking",
+        "declAttributes": [
+          "Exported"
+        ]
       },
       {
         "kind": "Import",
         "name": "ApolloAPI",
         "printedName": "ApolloAPI",
         "declKind": "Import",
-        "moduleName": "CoreNetworking"
+        "moduleName": "CoreNetworking",
+        "declAttributes": [
+          "Exported"
+        ]
       },
       {
         "kind": "Import",
@@ -30,7 +36,10 @@
         "name": "Apollo",
         "printedName": "Apollo",
         "declKind": "Import",
-        "moduleName": "CoreNetworking"
+        "moduleName": "CoreNetworking",
+        "declAttributes": [
+          "Exported"
+        ]
       },
       {
         "kind": "Import",
@@ -419,7 +428,10 @@
         "name": "Apollo",
         "printedName": "Apollo",
         "declKind": "Import",
-        "moduleName": "CoreNetworking"
+        "moduleName": "CoreNetworking",
+        "declAttributes": [
+          "Exported"
+        ]
       },
       {
         "kind": "Import",
@@ -1807,46 +1819,6 @@
       },
       {
         "kind": "Import",
-        "name": "Apollo",
-        "printedName": "Apollo",
-        "declKind": "Import",
-        "moduleName": "CoreNetworking",
-        "declAttributes": [
-          "Exported"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "ApolloAPI",
-        "printedName": "ApolloAPI",
-        "declKind": "Import",
-        "moduleName": "CoreNetworking",
-        "declAttributes": [
-          "Exported"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CoreLogger",
-        "printedName": "CoreLogger",
-        "declKind": "Import",
-        "moduleName": "CoreNetworking",
-        "declAttributes": [
-          "Exported"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CoreStorage",
-        "printedName": "CoreStorage",
-        "declKind": "Import",
-        "moduleName": "CoreNetworking",
-        "declAttributes": [
-          "Exported"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -2327,7 +2299,10 @@
         "name": "CoreLogger",
         "printedName": "CoreLogger",
         "declKind": "Import",
-        "moduleName": "CoreNetworking"
+        "moduleName": "CoreNetworking",
+        "declAttributes": [
+          "Exported"
+        ]
       },
       {
         "kind": "Import",
@@ -2341,21 +2316,30 @@
         "name": "Apollo",
         "printedName": "Apollo",
         "declKind": "Import",
-        "moduleName": "CoreNetworking"
+        "moduleName": "CoreNetworking",
+        "declAttributes": [
+          "Exported"
+        ]
       },
       {
         "kind": "Import",
         "name": "ApolloAPI",
         "printedName": "ApolloAPI",
         "declKind": "Import",
-        "moduleName": "CoreNetworking"
+        "moduleName": "CoreNetworking",
+        "declAttributes": [
+          "Exported"
+        ]
       },
       {
         "kind": "Import",
         "name": "CoreLogger",
         "printedName": "CoreLogger",
         "declKind": "Import",
-        "moduleName": "CoreNetworking"
+        "moduleName": "CoreNetworking",
+        "declAttributes": [
+          "Exported"
+        ]
       },
       {
         "kind": "Import",
@@ -2854,14 +2838,20 @@
         "name": "Apollo",
         "printedName": "Apollo",
         "declKind": "Import",
-        "moduleName": "CoreNetworking"
+        "moduleName": "CoreNetworking",
+        "declAttributes": [
+          "Exported"
+        ]
       },
       {
         "kind": "Import",
         "name": "ApolloAPI",
         "printedName": "ApolloAPI",
         "declKind": "Import",
-        "moduleName": "CoreNetworking"
+        "moduleName": "CoreNetworking",
+        "declAttributes": [
+          "Exported"
+        ]
       },
       {
         "kind": "Import",
@@ -2875,7 +2865,10 @@
         "name": "CoreLogger",
         "printedName": "CoreLogger",
         "declKind": "Import",
-        "moduleName": "CoreNetworking"
+        "moduleName": "CoreNetworking",
+        "declAttributes": [
+          "Exported"
+        ]
       },
       {
         "kind": "Import",
@@ -4843,21 +4836,30 @@
         "name": "Apollo",
         "printedName": "Apollo",
         "declKind": "Import",
-        "moduleName": "CoreNetworking"
+        "moduleName": "CoreNetworking",
+        "declAttributes": [
+          "Exported"
+        ]
       },
       {
         "kind": "Import",
         "name": "ApolloAPI",
         "printedName": "ApolloAPI",
         "declKind": "Import",
-        "moduleName": "CoreNetworking"
+        "moduleName": "CoreNetworking",
+        "declAttributes": [
+          "Exported"
+        ]
       },
       {
         "kind": "Import",
         "name": "CoreStorage",
         "printedName": "CoreStorage",
         "declKind": "Import",
-        "moduleName": "CoreNetworking"
+        "moduleName": "CoreNetworking",
+        "declAttributes": [
+          "Exported"
+        ]
       },
       {
         "kind": "Import",
@@ -5547,14 +5549,14 @@
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/GraphQL\/ApolloClientStream.swift",
       "kind": "BooleanLiteral",
-      "offset": 1724,
+      "offset": 1746,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/GraphQL\/ApolloNetworkManager.swift",
       "kind": "FloatLiteral",
-      "offset": 547,
+      "offset": 558,
       "length": 4,
       "value": "30.0"
     },
@@ -5764,406 +5766,406 @@
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Log\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 105,
+      "offset": 116,
       "length": 16,
       "value": "\"apollo network\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Log\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 172,
+      "offset": 183,
       "length": 21,
       "value": "\"url session network\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Log\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 241,
+      "offset": 252,
       "length": 18,
       "value": "\"firebase network\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Log\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 303,
+      "offset": 314,
       "length": 13,
       "value": "\"jwt network\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/GraphQL\/Interceptors\/LoggingInterceptor.swift",
       "kind": "StringLiteral",
-      "offset": 530,
+      "offset": 563,
       "length": 8,
       "value": "\"Apollo\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/GraphQL\/Interceptors\/LoggingInterceptor.swift",
       "kind": "StringLiteral",
-      "offset": 564,
+      "offset": 597,
       "length": 16,
       "value": "\"interceptAsync\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/GraphQL\/Interceptors\/LoggingInterceptor.swift",
       "kind": "StringLiteral",
-      "offset": 607,
+      "offset": 640,
       "length": 19,
       "value": "\"starting fetching\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/GraphQL\/Interceptors\/LoggingInterceptor.swift",
       "kind": "StringLiteral",
-      "offset": 756,
+      "offset": 789,
       "length": 11,
       "value": "\"operation\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/GraphQL\/Interceptors\/LoggingInterceptor.swift",
       "kind": "StringLiteral",
-      "offset": 769,
+      "offset": 802,
       "length": 22,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/GraphQL\/Interceptors\/LoggingInterceptor.swift",
       "kind": "StringLiteral",
-      "offset": 790,
+      "offset": 823,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/GraphQL\/Interceptors\/LoggingInterceptor.swift",
       "kind": "StringLiteral",
-      "offset": 813,
+      "offset": 846,
       "length": 10,
       "value": "\"endpoint\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/GraphQL\/Interceptors\/LoggingInterceptor.swift",
       "kind": "StringLiteral",
-      "offset": 825,
+      "offset": 858,
       "length": 43,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/GraphQL\/Interceptors\/LoggingInterceptor.swift",
       "kind": "StringLiteral",
-      "offset": 867,
+      "offset": 900,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/GraphQL\/Interceptors\/LoggingInterceptor.swift",
       "kind": "StringLiteral",
-      "offset": 1284,
+      "offset": 1317,
       "length": 8,
       "value": "\"Apollo\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/GraphQL\/Interceptors\/LoggingInterceptor.swift",
       "kind": "StringLiteral",
-      "offset": 1330,
+      "offset": 1363,
       "length": 16,
       "value": "\"interceptAsync\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/GraphQL\/Interceptors\/LoggingInterceptor.swift",
       "kind": "StringLiteral",
-      "offset": 1385,
+      "offset": 1418,
       "length": 31,
       "value": "\"request returned successfully\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/GraphQL\/Interceptors\/LoggingInterceptor.swift",
       "kind": "StringLiteral",
-      "offset": 1582,
+      "offset": 1615,
       "length": 11,
       "value": "\"operation\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/GraphQL\/Interceptors\/LoggingInterceptor.swift",
       "kind": "StringLiteral",
-      "offset": 1595,
+      "offset": 1628,
       "length": 22,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/GraphQL\/Interceptors\/LoggingInterceptor.swift",
       "kind": "StringLiteral",
-      "offset": 1616,
+      "offset": 1649,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/GraphQL\/Interceptors\/LoggingInterceptor.swift",
       "kind": "StringLiteral",
-      "offset": 1651,
+      "offset": 1684,
       "length": 10,
       "value": "\"endpoint\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/GraphQL\/Interceptors\/LoggingInterceptor.swift",
       "kind": "StringLiteral",
-      "offset": 1663,
+      "offset": 1696,
       "length": 43,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/GraphQL\/Interceptors\/LoggingInterceptor.swift",
       "kind": "StringLiteral",
-      "offset": 1705,
+      "offset": 1738,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/GraphQL\/Interceptors\/LoggingInterceptor.swift",
       "kind": "StringLiteral",
-      "offset": 2131,
+      "offset": 2164,
       "length": 11,
       "value": "\"operation\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/GraphQL\/Interceptors\/LoggingInterceptor.swift",
       "kind": "StringLiteral",
-      "offset": 2146,
+      "offset": 2179,
       "length": 22,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/GraphQL\/Interceptors\/LoggingInterceptor.swift",
       "kind": "StringLiteral",
-      "offset": 2167,
+      "offset": 2200,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/GraphQL\/Interceptors\/LoggingInterceptor.swift",
       "kind": "StringLiteral",
-      "offset": 2202,
+      "offset": 2235,
       "length": 10,
       "value": "\"endpoint\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/GraphQL\/Interceptors\/LoggingInterceptor.swift",
       "kind": "StringLiteral",
-      "offset": 2216,
+      "offset": 2249,
       "length": 43,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/GraphQL\/Interceptors\/LoggingInterceptor.swift",
       "kind": "StringLiteral",
-      "offset": 2258,
+      "offset": 2291,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/GraphQL\/Interceptors\/LoggingInterceptor.swift",
       "kind": "StringLiteral",
-      "offset": 2342,
+      "offset": 2375,
       "length": 8,
       "value": "\"Apollo\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/GraphQL\/Interceptors\/LoggingInterceptor.swift",
       "kind": "StringLiteral",
-      "offset": 2388,
+      "offset": 2421,
       "length": 16,
       "value": "\"interceptAsync\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/GraphQL\/Interceptors\/LoggingInterceptor.swift",
       "kind": "StringLiteral",
-      "offset": 2457,
+      "offset": 2490,
       "length": 21,
       "value": "\"No message provided\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/GraphQL\/Interceptors\/LoggingInterceptor.swift",
       "kind": "StringLiteral",
-      "offset": 3097,
+      "offset": 3130,
       "length": 8,
       "value": "\"Apollo\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/GraphQL\/Interceptors\/LoggingInterceptor.swift",
       "kind": "StringLiteral",
-      "offset": 3147,
+      "offset": 3180,
       "length": 16,
       "value": "\"interceptAsync\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/GraphQL\/Interceptors\/LoggingInterceptor.swift",
       "kind": "StringLiteral",
-      "offset": 3206,
+      "offset": 3239,
       "length": 35,
       "value": "\"Unable to retrieve error messages\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/GraphQL\/Interceptors\/LoggingInterceptor.swift",
       "kind": "StringLiteral",
-      "offset": 3419,
+      "offset": 3452,
       "length": 11,
       "value": "\"operation\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/GraphQL\/Interceptors\/LoggingInterceptor.swift",
       "kind": "StringLiteral",
-      "offset": 3432,
+      "offset": 3465,
       "length": 22,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/GraphQL\/Interceptors\/LoggingInterceptor.swift",
       "kind": "StringLiteral",
-      "offset": 3453,
+      "offset": 3486,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/GraphQL\/Interceptors\/LoggingInterceptor.swift",
       "kind": "StringLiteral",
-      "offset": 3492,
+      "offset": 3525,
       "length": 10,
       "value": "\"endpoint\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/GraphQL\/Interceptors\/LoggingInterceptor.swift",
       "kind": "StringLiteral",
-      "offset": 3504,
+      "offset": 3537,
       "length": 43,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/GraphQL\/Interceptors\/LoggingInterceptor.swift",
       "kind": "StringLiteral",
-      "offset": 3546,
+      "offset": 3579,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/GraphQL\/Interceptors\/LoggingInterceptor.swift",
       "kind": "StringLiteral",
-      "offset": 3849,
+      "offset": 3882,
       "length": 8,
       "value": "\"Apollo\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/GraphQL\/Interceptors\/LoggingInterceptor.swift",
       "kind": "StringLiteral",
-      "offset": 3895,
+      "offset": 3928,
       "length": 16,
       "value": "\"interceptAsync\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/GraphQL\/Interceptors\/LoggingInterceptor.swift",
       "kind": "StringLiteral",
-      "offset": 3950,
+      "offset": 3983,
       "length": 48,
       "value": "\"unable to unwrap both resposne data and errors\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/GraphQL\/Interceptors\/LoggingInterceptor.swift",
       "kind": "StringLiteral",
-      "offset": 4164,
+      "offset": 4197,
       "length": 11,
       "value": "\"operation\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/GraphQL\/Interceptors\/LoggingInterceptor.swift",
       "kind": "StringLiteral",
-      "offset": 4177,
+      "offset": 4210,
       "length": 22,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/GraphQL\/Interceptors\/LoggingInterceptor.swift",
       "kind": "StringLiteral",
-      "offset": 4198,
+      "offset": 4231,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/GraphQL\/Interceptors\/LoggingInterceptor.swift",
       "kind": "StringLiteral",
-      "offset": 4233,
+      "offset": 4266,
       "length": 10,
       "value": "\"endpoint\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/GraphQL\/Interceptors\/LoggingInterceptor.swift",
       "kind": "StringLiteral",
-      "offset": 4245,
+      "offset": 4278,
       "length": 43,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/GraphQL\/Interceptors\/LoggingInterceptor.swift",
       "kind": "StringLiteral",
-      "offset": 4287,
+      "offset": 4320,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/GraphQL\/Interceptors\/LoggingInterceptor.swift",
       "kind": "StringLiteral",
-      "offset": 4618,
+      "offset": 4651,
       "length": 8,
       "value": "\"Apollo\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/GraphQL\/Interceptors\/LoggingInterceptor.swift",
       "kind": "StringLiteral",
-      "offset": 4660,
+      "offset": 4693,
       "length": 16,
       "value": "\"interceptAsync\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/GraphQL\/Interceptors\/LoggingInterceptor.swift",
       "kind": "StringLiteral",
-      "offset": 4711,
+      "offset": 4744,
       "length": 17,
       "value": "\"request failure\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/GraphQL\/Interceptors\/LoggingInterceptor.swift",
       "kind": "StringLiteral",
-      "offset": 4920,
+      "offset": 4953,
       "length": 11,
       "value": "\"operation\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/GraphQL\/Interceptors\/LoggingInterceptor.swift",
       "kind": "StringLiteral",
-      "offset": 4933,
+      "offset": 4966,
       "length": 22,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/GraphQL\/Interceptors\/LoggingInterceptor.swift",
       "kind": "StringLiteral",
-      "offset": 4954,
+      "offset": 4987,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/GraphQL\/Interceptors\/LoggingInterceptor.swift",
       "kind": "StringLiteral",
-      "offset": 4985,
+      "offset": 5018,
       "length": 10,
       "value": "\"endpoint\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/GraphQL\/Interceptors\/LoggingInterceptor.swift",
       "kind": "StringLiteral",
-      "offset": 4997,
+      "offset": 5030,
       "length": 43,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/GraphQL\/Interceptors\/LoggingInterceptor.swift",
       "kind": "StringLiteral",
-      "offset": 5039,
+      "offset": 5072,
       "length": 2,
       "value": "\"\""
     },
@@ -6240,476 +6242,476 @@
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/Rest\/NetworkManager.swift",
       "kind": "Dictionary",
-      "offset": 933,
+      "offset": 944,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/Rest\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 1012,
+      "offset": 1023,
       "length": 21,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/Rest\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 1025,
+      "offset": 1036,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/Rest\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 1032,
+      "offset": 1043,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/Rest\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 1152,
+      "offset": 1163,
       "length": 14,
       "value": "\"http request\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/Rest\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 1192,
+      "offset": 1203,
       "length": 7,
       "value": "\"fetch\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/Rest\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 1226,
+      "offset": 1237,
       "length": 19,
       "value": "\"starting fetching\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/Rest\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 1375,
+      "offset": 1386,
       "length": 5,
       "value": "\"url\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/Rest\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 1382,
+      "offset": 1393,
       "length": 9,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/Rest\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 1390,
+      "offset": 1401,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/Rest\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 1619,
+      "offset": 1630,
       "length": 14,
       "value": "\"http request\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/Rest\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 1663,
+      "offset": 1674,
       "length": 7,
       "value": "\"fetch\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/Rest\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 1701,
+      "offset": 1712,
       "length": 22,
       "value": "\"unable to unwrap url\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/Rest\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 1865,
+      "offset": 1876,
       "length": 5,
       "value": "\"url\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/Rest\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 1872,
+      "offset": 1883,
       "length": 9,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/Rest\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 1880,
+      "offset": 1891,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/Rest\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 1980,
+      "offset": 1991,
       "length": 22,
       "value": "\"unable to unwrap url\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/Rest\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 2490,
+      "offset": 2501,
       "length": 14,
       "value": "\"http request\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/Rest\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 2538,
+      "offset": 2549,
       "length": 7,
       "value": "\"fetch\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/Rest\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 2580,
+      "offset": 2591,
       "length": 32,
       "value": "\"body successfully body encoded\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/Rest\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 2766,
+      "offset": 2777,
       "length": 5,
       "value": "\"url\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/Rest\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 2773,
+      "offset": 2784,
       "length": 23,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/Rest\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 2795,
+      "offset": 2806,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/Rest\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 3036,
+      "offset": 3047,
       "length": 14,
       "value": "\"http request\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/Rest\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 3084,
+      "offset": 3095,
       "length": 7,
       "value": "\"fetch\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/Rest\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 3126,
+      "offset": 3137,
       "length": 25,
       "value": "\"fail body serialization\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/Rest\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 3343,
+      "offset": 3354,
       "length": 5,
       "value": "\"url\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/Rest\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 3350,
+      "offset": 3361,
       "length": 23,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/Rest\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 3372,
+      "offset": 3383,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/Rest\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 3640,
+      "offset": 3651,
       "length": 14,
       "value": "\"http request\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/Rest\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 3684,
+      "offset": 3695,
       "length": 7,
       "value": "\"fetch\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/Rest\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 3722,
+      "offset": 3733,
       "length": 25,
       "value": "\"fail body serialization\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/Rest\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 3889,
+      "offset": 3900,
       "length": 5,
       "value": "\"url\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/Rest\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 3896,
+      "offset": 3907,
       "length": 23,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/Rest\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 3918,
+      "offset": 3929,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/Rest\/NetworkManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 4124,
+      "offset": 4135,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/Rest\/NetworkManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 4130,
+      "offset": 4141,
       "length": 3,
       "value": "299"
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/Rest\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 4321,
+      "offset": 4332,
       "length": 14,
       "value": "\"http request\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/Rest\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 4369,
+      "offset": 4380,
       "length": 7,
       "value": "\"fetch\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/Rest\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 4411,
+      "offset": 4422,
       "length": 18,
       "value": "\"invalid response\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/Rest\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 4583,
+      "offset": 4594,
       "length": 5,
       "value": "\"url\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/Rest\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 4590,
+      "offset": 4601,
       "length": 23,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/Rest\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 4612,
+      "offset": 4623,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/Rest\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 4643,
+      "offset": 4654,
       "length": 12,
       "value": "\"statusCode\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/Rest\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 4657,
+      "offset": 4668,
       "length": 28,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/Rest\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 4684,
+      "offset": 4695,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/Rest\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 4800,
+      "offset": 4811,
       "length": 18,
       "value": "\"invalid response\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/Rest\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 5170,
+      "offset": 5181,
       "length": 14,
       "value": "\"http request\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/Rest\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 5218,
+      "offset": 5229,
       "length": 7,
       "value": "\"fetch\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/Rest\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 5260,
+      "offset": 5271,
       "length": 31,
       "value": "\"request response successfully\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/Rest\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 5445,
+      "offset": 5456,
       "length": 5,
       "value": "\"url\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/Rest\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 5452,
+      "offset": 5463,
       "length": 23,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/Rest\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 5474,
+      "offset": 5485,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/Rest\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 5505,
+      "offset": 5516,
       "length": 8,
       "value": "\"object\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/Rest\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 5515,
+      "offset": 5526,
       "length": 11,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/Rest\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 5525,
+      "offset": 5536,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/Rest\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 5797,
+      "offset": 5808,
       "length": 14,
       "value": "\"http request\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/Rest\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 5845,
+      "offset": 5856,
       "length": 7,
       "value": "\"fetch\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/Rest\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 5887,
+      "offset": 5898,
       "length": 25,
       "value": "\"fail to decode response\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/Rest\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 6104,
+      "offset": 6115,
       "length": 5,
       "value": "\"url\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/Rest\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 6111,
+      "offset": 6122,
       "length": 23,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/Rest\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 6133,
+      "offset": 6144,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/Rest\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 6396,
+      "offset": 6407,
       "length": 14,
       "value": "\"http request\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/Rest\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 6440,
+      "offset": 6451,
       "length": 7,
       "value": "\"fetch\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/Rest\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 6478,
+      "offset": 6489,
       "length": 25,
       "value": "\"fail to try url session\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/Rest\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 6679,
+      "offset": 6690,
       "length": 5,
       "value": "\"url\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/Rest\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 6686,
+      "offset": 6697,
       "length": 23,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/Rest\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 6708,
+      "offset": 6719,
       "length": 2,
       "value": "\"\""
     },
@@ -7031,28 +7033,28 @@
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/GraphQL\/Interceptors\/UserManagementInterceptor.swift",
       "kind": "StringLiteral",
-      "offset": 902,
+      "offset": 935,
       "length": 15,
       "value": "\"Authorization\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/GraphQL\/Interceptors\/UserManagementInterceptor.swift",
       "kind": "StringLiteral",
-      "offset": 926,
+      "offset": 959,
       "length": 17,
       "value": "\"Bearer \""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/GraphQL\/Interceptors\/UserManagementInterceptor.swift",
       "kind": "StringLiteral",
-      "offset": 942,
+      "offset": 975,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/victormendes\/Github\/Nomo\/mobile-client-ios\/Modules\/CoreNetworking\/Source\/Networking\/GraphQL\/Interceptors\/UserManagementInterceptor.swift",
       "kind": "IntegerLiteral",
-      "offset": 1667,
+      "offset": 1700,
       "length": 3,
       "value": "401"
     }

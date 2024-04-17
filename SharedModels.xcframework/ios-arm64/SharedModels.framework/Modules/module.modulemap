@@ -1,4 +1,0 @@
-framework module SharedModels {
-  header "SharedModels-Swift.h"
-  requires objc
-}
