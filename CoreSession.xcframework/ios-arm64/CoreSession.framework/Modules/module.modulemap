@@ -1,4 +1,0 @@
-framework module CoreSession {
-  header "CoreSession-Swift.h"
-  requires objc
-}

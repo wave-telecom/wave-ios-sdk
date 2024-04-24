@@ -1,5 +1,0 @@
-fragment ReferralProductFragment on ReferralProduct {
-    id
-    dataInGibibytes
-    redeemedDate
-}

@@ -1,4 +1,0 @@
-framework module WaveSDK {
-  header "WaveSDK-Swift.h"
-  requires objc
-}
