@@ -10,7 +10,7 @@ let package = Package(
         .iOS(.v15)
     ],
     products: [
-        .library(name: "WaveSDK", targets: ["WaveSDK"])
+        .library(name: "WaveActivation", targets: ["WaveActivation"])
     ],
     dependencies: [
         .package(url: "https://github.com/apollographql/apollo-ios.git", from: "1.7.1"),
@@ -65,7 +65,7 @@ let package = Package(
             checksum: "90bb64940c9adba1d2891a5cdd3598e04be269e2cb5f552bcb1cfd3788a120e9"
         ),
         .target(
-            name: "WaveSDK",
+            name: "WaveActivation",
             dependencies: [
                 .target(name: "CoreStorage"),
                 .target(name: "CoreLogger"),
