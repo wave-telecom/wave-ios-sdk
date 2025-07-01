@@ -71,7 +71,7 @@ let package = Package(
         .binaryTarget(
             name: "FeatureActivation",
             url: "https://github.com/wave-telecom/wave-ios-sdk/releases/download/v0.6.7/FeatureActivation.xcframework.zip",
-            checksum: "ceb0eb30eacc5ed345fbb69425560e6a6f563c1592bf9a16bca5a95baacc9ab0"
+            checksum: "1d98ee7fc959fd3a992d7a2fb1735dd58ba578a01a0bb9f349b38ba8c734bb6e"
         ),
         .binaryTarget(
             name: "DatadogCore",
