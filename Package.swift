@@ -20,73 +20,73 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "CoreStorage",
-            url: "https://github.com/NomoTechnology/wave-ios-sdk/releases/download/v0.6.6/CoreStorage.xcframework.zip",
-            checksum: "ad9d37e4bae8a6aa1e95fb2aa955a7add8e7f6d62870b2dacb8aa6a1b8d5d0af"
+            url: "https://github.com/NomoTechnology/wave-ios-sdk/releases/download/v0.6.12/CoreStorage.xcframework.zip",
+            checksum: "1b1db75762eba9b794c4138e85819ea92579b0a63fd5aa598a0bd7946ff0086d"
         ),
         .binaryTarget(
             name: "CoreLogger",
-            url: "https://github.com/NomoTechnology/wave-ios-sdk/releases/download/v0.6.6/CoreLogger.xcframework.zip",
-            checksum: "a4bba8d37433ebb0a080ba357e262ad84597e8a3c327e97b98989b1f1166467b"
+            url: "https://github.com/NomoTechnology/wave-ios-sdk/releases/download/v0.6.12/CoreLogger.xcframework.zip",
+            checksum: "48f66665ccb80db0692f5744667c50f5a60bda54619ef975099eb4e992b052fc"
         ),
         .binaryTarget(
             name: "CoreNetworking",
-            url: "https://github.com/NomoTechnology/wave-ios-sdk/releases/download/v0.6.6/CoreNetworking.xcframework.zip",
-            checksum: "ea9255aab50a8344bf97dc758a6844b06ff18d6ccaec2b35cc91adc295327d34"
+            url: "https://github.com/NomoTechnology/wave-ios-sdk/releases/download/v0.6.12/CoreNetworking.xcframework.zip",
+            checksum: "2b91fa33f3f369199f6f02b314b63c48303c2b57f7e1bdf5e5a49c236f68fc8f"
         ),
         .binaryTarget(
             name: "CoreFormatters",
-            url: "https://github.com/NomoTechnology/wave-ios-sdk/releases/download/v0.6.6/CoreFormatters.xcframework.zip",
-            checksum: "60872c769b29c8dd2b9cf8aff35fdb6d1cd7c938c5abe590ff5dc928c35c3818"
+            url: "https://github.com/NomoTechnology/wave-ios-sdk/releases/download/v0.6.12/CoreFormatters.xcframework.zip",
+            checksum: "4e5e3295b78cf20033a1673b4153bf62ba530b2b892a466c77e7443cb98a4db6"
         ),
         .binaryTarget(
             name: "SharedModels",
-            url: "https://github.com/NomoTechnology/wave-ios-sdk/releases/download/v0.6.6/SharedModels.xcframework.zip",
-            checksum: "0abdb6cb30e82bf4a042073704805310aab6a9a29f08c81b66556367151b4f48"
+            url: "https://github.com/NomoTechnology/wave-ios-sdk/releases/download/v0.6.12/SharedModels.xcframework.zip",
+            checksum: "a3b10389f6d86032810184d45b1d4a017ee8ac07bda6bb1c2d0519ea1e155ae9"
         ),
         .binaryTarget(
             name: "CoreSession",
-            url: "https://github.com/NomoTechnology/wave-ios-sdk/releases/download/v0.6.6/CoreSession.xcframework.zip",
-            checksum: "df8df04126eb406ff022936d702668042b13422541bd67a16a174efc9b70fbc8"
+            url: "https://github.com/NomoTechnology/wave-ios-sdk/releases/download/v0.6.12/CoreSession.xcframework.zip",
+            checksum: "51b2e14369c2b2e990e34efa587cd2385a37ddb7ad1ba6f8419360d0efb02853"
         ),
         .binaryTarget(
             name: "WaveFoundation",
-            url: "https://github.com/NomoTechnology/wave-ios-sdk/releases/download/v0.6.6/WaveFoundation.xcframework.zip",
-            checksum: "2b05abede2edc19fbb524f1e3ef24612fa4c06c0058a080967b20898c961ec57"
+            url: "https://github.com/NomoTechnology/wave-ios-sdk/releases/download/v0.6.12/WaveFoundation.xcframework.zip",
+            checksum: "f76586150950af2b99940047be0d855622676fd0ef888fe520a287385a52bf45"
         ),
         .binaryTarget(
             name: "WaveAuth",
-            url: "https://github.com/NomoTechnology/wave-ios-sdk/releases/download/v0.6.6/WaveAuth.xcframework.zip",
-            checksum: "5f6569a419c33eda460fdf0e071338b036023ef10ba19b19c6c92b521690fbe1"
+            url: "https://github.com/NomoTechnology/wave-ios-sdk/releases/download/v0.6.12/WaveAuth.xcframework.zip",
+            checksum: "499d885d0ff0adf72a2628c5e5cd4394d985bf530eb3e2fad7904b144872d99c"
         ),
         .binaryTarget(
             name: "WaveUI",
-            url: "https://github.com/NomoTechnology/wave-ios-sdk/releases/download/v0.6.6/WaveUI.xcframework.zip",
-            checksum: "7e35e0a5c1130dad8f6d39906b32b2f0df01b59381d2b8092a44cc1680567d74"
+            url: "https://github.com/NomoTechnology/wave-ios-sdk/releases/download/v0.6.12/WaveUI.xcframework.zip",
+            checksum: "1ed67593b3070bda52b945d7416179d098d4c12bfbb376c3ee712e33c35a2755"
         ),
         .binaryTarget(
             name: "FeatureHelp",
-            url: "https://github.com/NomoTechnology/wave-ios-sdk/releases/download/v0.6.6/FeatureHelp.xcframework.zip",
-            checksum: "bf4bc8dc0a8231131ac57060c3870dba7c07aa8e08e315f99a5b46b572a4049a"
+            url: "https://github.com/NomoTechnology/wave-ios-sdk/releases/download/v0.6.12/FeatureHelp.xcframework.zip",
+            checksum: "2343c82a99793194dfcadae738f9283d5816621413919265a66ce979cb8a7d36"
         ),
         .binaryTarget(
             name: "FeatureActivation",
-            url: "https://github.com/NomoTechnology/wave-ios-sdk/releases/download/v0.6.6/FeatureActivation.xcframework.zip",
-            checksum: "621f765641873c0f8371bae176c4e2052d91c6930052ad41935861da9e0ab827"
+            url: "https://github.com/NomoTechnology/wave-ios-sdk/releases/download/v0.6.12/FeatureActivation.xcframework.zip",
+            checksum: "ae9dd8d2ce6b22887a8bf14a892d7ef4dbcb68f493685862e4f9ad43f7d75c36"
         ),
         .binaryTarget(
             name: "DatadogCore",
-            url: "https://github.com/NomoTechnology/wave-ios-sdk/releases/download/v0.6.6/DatadogCore.xcframework.zip",
-            checksum: "60ca06e9f75f7d2f88a436f1faa49c6302bb7d21f915123564843d66605a0702"
+            url: "https://github.com/NomoTechnology/wave-ios-sdk/releases/download/v0.6.12/DatadogCore.xcframework.zip",
+            checksum: "e80a1372b8d7a7bc1cdad93ba3849d812c8e53dd2f4ed204803e215b81f36a6a"
         ),
         .binaryTarget(
             name: "DatadogInternal",
-            url: "https://github.com/NomoTechnology/wave-ios-sdk/releases/download/v0.6.6/DatadogInternal.xcframework.zip",
-            checksum: "2fe2efa593fa189168446f8f085881883c6088cc24e32f052b972a656a371033"
+            url: "https://github.com/NomoTechnology/wave-ios-sdk/releases/download/v0.6.12/DatadogInternal.xcframework.zip",
+            checksum: "e62680983c905cd03e6da2b01067c7fea801f9729d900c9ad977161158cd3818"
         ),
         .binaryTarget(
             name: "DatadogRUM",
-            url: "https://github.com/NomoTechnology/wave-ios-sdk/releases/download/v0.6.6/DatadogRUM.xcframework.zip",
-            checksum: "de748378f814e29ab039903563bb1aa2f62759d89b17268afeb031ec4ab83494"
+            url: "https://github.com/NomoTechnology/wave-ios-sdk/releases/download/v0.6.12/DatadogRUM.xcframework.zip",
+            checksum: "8a6074377c0af298d59c0e04b621429e9f8a40346a8a2d121de6318245bcdc5a"
         ),
         .target(
             name: "WaveActivation",
