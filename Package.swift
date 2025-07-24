@@ -36,7 +36,7 @@ let package = Package(
         .binaryTarget(
             name: "CoreFormatters",
             url: "https://github.com/wave-telecom/wave-ios-sdk/releases/download/v0.6.12/CoreFormatters.xcframework.zip",
-            checksum: "ec8602c3ca9be037015c85694bc4561eb55bdb24ba5321b3d43bc0edc148706f"
+            checksum: "9b900caeb64998aa672dd3f7e05117b685301fd204a0241250550265cfafc228"
         ),
         .binaryTarget(
             name: "SharedModels",
