@@ -35,7 +35,7 @@ let package = Package(
         ),
         .binaryTarget(
             name: "CoreFormatters",
-            url: "https://github.com/wave-telecom/wave-ios-sdk/releases/download/v0.6.12/CoreFormatters.xcframework.zip",
+            url: "https://github.com/wave-telecom/wave-ios-sdk/releases/download/v0.6.13/CoreFormatters.xcframework.zip",
             checksum: "9b900caeb64998aa672dd3f7e05117b685301fd204a0241250550265cfafc228"
         ),
         .binaryTarget(
