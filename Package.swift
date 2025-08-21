@@ -20,72 +20,72 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "CoreStorage",
-            url: "https://github.com/wave-telecom/wave-ios-sdk/releases/download/v0.6.15/CoreStorage.xcframework.zip",
-            checksum: "964084c80e7b03cc034e894d386ca576a919cf2fb95707e42840f4de767358a8"
+            url: "https://github.com/wave-telecom/wave-ios-sdk/releases/download/v0.6.16/CoreStorage.xcframework.zip",
+            checksum: "4a139d859249d4c726b952ec4948c92e1727e709328d2a85b51bde28345f3b18"
         ),
         .binaryTarget(
             name: "CoreLogger",
-            url: "https://github.com/wave-telecom/wave-ios-sdk/releases/download/v0.6.15/CoreLogger.xcframework.zip",
-            checksum: "d90ece6fa36fa22f7422df2b08f4b18894d64dd09fa561e1bfc2ffe23ac2c182"
+            url: "https://github.com/wave-telecom/wave-ios-sdk/releases/download/v0.6.16/CoreLogger.xcframework.zip",
+            checksum: "89a19d438d4b812e2e06ab0591d2e6ef7d27724ce8a2f1a3ba6f6c79314d589e"
         ),
         .binaryTarget(
             name: "CoreNetworking",
-            url: "https://github.com/wave-telecom/wave-ios-sdk/releases/download/v0.6.15/CoreNetworking.xcframework.zip",
-            checksum: "0486beb446664f3b4fddf2fdbea5de6c409b733606f7d7dbba5aa5684cd163e1"
+            url: "https://github.com/wave-telecom/wave-ios-sdk/releases/download/v0.6.16/CoreNetworking.xcframework.zip",
+            checksum: "9f45703298f683a81a359cd623a95190f188ab73516e2b6d7963b304bab4b4c7"
         ),
         .binaryTarget(
             name: "CoreFormatters",
-            url: "https://github.com/wave-telecom/wave-ios-sdk/releases/download/v0.6.15/CoreFormatters.xcframework.zip",
-            checksum: "feab152e9a8980f056bcead014380283c61371816b3cdc454419eb3f23e88e26"
+            url: "https://github.com/wave-telecom/wave-ios-sdk/releases/download/v0.6.16/CoreFormatters.xcframework.zip",
+            checksum: "fb08d20252b6ec5493aa3ec9e07e24f87d542e2f081436d74d2c8226b34fe7f4"
         ),
         .binaryTarget(
             name: "SharedModels",
-            url: "https://github.com/wave-telecom/wave-ios-sdk/releases/download/v0.6.15/SharedModels.xcframework.zip",
-            checksum: "283aa1cb55dfeeb685ab52865a647688f47b40c3e4e7f0be3abb0851fcf9fd72"
+            url: "https://github.com/wave-telecom/wave-ios-sdk/releases/download/v0.6.16/SharedModels.xcframework.zip",
+            checksum: "9de93cd0e03bc5668e4fa49fc68546914c8f7177b60c071c4e64c480f5a052f7"
         ),
         .binaryTarget(
             name: "CoreSession",
-            url: "https://github.com/wave-telecom/wave-ios-sdk/releases/download/v0.6.15/CoreSession.xcframework.zip",
-            checksum: "a77cf2fe912739744ae26e70a47d6e732dc03ac3cb502640d6eff1ad52069677"
+            url: "https://github.com/wave-telecom/wave-ios-sdk/releases/download/v0.6.16/CoreSession.xcframework.zip",
+            checksum: "9370c00dd8aa07ac76f7cd12de2e7b995f6d2f46711cf246df7206050cc70c6a"
         ),
         .binaryTarget(
             name: "WaveFoundation",
-            url: "https://github.com/wave-telecom/wave-ios-sdk/releases/download/v0.6.15/WaveFoundation.xcframework.zip",
-            checksum: "5e402cc953ea7d045ed9f4fe37e51821b296844014ec583cdc9651e2dd62d2bf"
+            url: "https://github.com/wave-telecom/wave-ios-sdk/releases/download/v0.6.16/WaveFoundation.xcframework.zip",
+            checksum: "ba74c36cc7c1cdc9fb4d151d3247bb7a56e3569c79f04f2e31d409c90805982e"
         ),
         .binaryTarget(
             name: "WaveAuth",
-            url: "https://github.com/wave-telecom/wave-ios-sdk/releases/download/v0.6.15/WaveAuth.xcframework.zip",
-            checksum: "a54929cbbcaa39e7ab3ed1b2d8605422e9b60d14a4f4d582a04a9b0d240a6ef2"
+            url: "https://github.com/wave-telecom/wave-ios-sdk/releases/download/v0.6.16/WaveAuth.xcframework.zip",
+            checksum: "ee6c15504bd876f6644f7d83ac75cb2a1f8450cc9982b1c1d11dccfbd274126a"
         ),
         .binaryTarget(
             name: "WaveUI",
-            url: "https://github.com/wave-telecom/wave-ios-sdk/releases/download/v0.6.15/WaveUI.xcframework.zip",
-            checksum: "ba1d90cb60a24da4566920dc47d36abea4c5d16c8928d2f15e955cf9ae8c1522"
+            url: "https://github.com/wave-telecom/wave-ios-sdk/releases/download/v0.6.16/WaveUI.xcframework.zip",
+            checksum: "b76f652ee24af2f05ac5b7cdf774d4a5abb9b60c806a8b89e765b2a4936e8aea"
         ),
         .binaryTarget(
             name: "FeatureHelp",
-            url: "https://github.com/wave-telecom/wave-ios-sdk/releases/download/v0.6.15/FeatureHelp.xcframework.zip",
-            checksum: "230d65d74e82358cc87cef0126b4390e48999d70c25e5d27bab0cc09dfe3f032"
+            url: "https://github.com/wave-telecom/wave-ios-sdk/releases/download/v0.6.16/FeatureHelp.xcframework.zip",
+            checksum: "09718b4a46e5dd3036c1dcd11bd73da314337e4727b77abd5734bcbe4c119d75"
         ),
         .binaryTarget(
             name: "FeatureActivation",
-            url: "https://github.com/wave-telecom/wave-ios-sdk/releases/download/v0.6.15/FeatureActivation.xcframework.zip",
-            checksum: "ae2a49258b7fadbfee4cf5008929928b82ca3aa25be3eedb71eb16c43c8bf9c7"
+            url: "https://github.com/wave-telecom/wave-ios-sdk/releases/download/v0.6.16/FeatureActivation.xcframework.zip",
+            checksum: "ee69a39b841574c959f9d8022e31bbf34f94379d49602a14fd85447115ae3262"
         ),
         .binaryTarget(
             name: "DatadogCore",
-            url: "https://github.com/wave-telecom/wave-ios-sdk/releases/download/v0.6.15/DatadogCore.xcframework.zip",
+            url: "https://github.com/wave-telecom/wave-ios-sdk/releases/download/v0.6.16/DatadogCore.xcframework.zip",
             checksum: "e80a1372b8d7a7bc1cdad93ba3849d812c8e53dd2f4ed204803e215b81f36a6a"
         ),
         .binaryTarget(
             name: "DatadogInternal",
-            url: "https://github.com/wave-telecom/wave-ios-sdk/releases/download/v0.6.15/DatadogInternal.xcframework.zip",
+            url: "https://github.com/wave-telecom/wave-ios-sdk/releases/download/v0.6.16/DatadogInternal.xcframework.zip",
             checksum: "e62680983c905cd03e6da2b01067c7fea801f9729d900c9ad977161158cd3818"
         ),
         .binaryTarget(
             name: "DatadogRUM",
-            url: "https://github.com/wave-telecom/wave-ios-sdk/releases/download/v0.6.15/DatadogRUM.xcframework.zip",
+            url: "https://github.com/wave-telecom/wave-ios-sdk/releases/download/v0.6.16/DatadogRUM.xcframework.zip",
             checksum: "8a6074377c0af298d59c0e04b621429e9f8a40346a8a2d121de6318245bcdc5a"
         ),
         .target(
