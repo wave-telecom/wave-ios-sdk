@@ -76,17 +76,17 @@ let package = Package(
         .binaryTarget(
             name: "DatadogCore",
             url: "https://github.com/wave-telecom/wave-ios-sdk/releases/download/v0.6.16/DatadogCore.xcframework.zip",
-            checksum: "60ca06e9f75f7d2f88a436f1faa49c6302bb7d21f915123564843d66605a0702"
+            checksum: "e80a1372b8d7a7bc1cdad93ba3849d812c8e53dd2f4ed204803e215b81f36a6a"
         ),
         .binaryTarget(
             name: "DatadogInternal",
             url: "https://github.com/wave-telecom/wave-ios-sdk/releases/download/v0.6.16/DatadogInternal.xcframework.zip",
-            checksum: "2fe2efa593fa189168446f8f085881883c6088cc24e32f052b972a656a371033"
+            checksum: "e62680983c905cd03e6da2b01067c7fea801f9729d900c9ad977161158cd3818"
         ),
         .binaryTarget(
             name: "DatadogRUM",
             url: "https://github.com/wave-telecom/wave-ios-sdk/releases/download/v0.6.16/DatadogRUM.xcframework.zip",
-            checksum: "de748378f814e29ab039903563bb1aa2f62759d89b17268afeb031ec4ab83494"
+            checksum: "8a6074377c0af298d59c0e04b621429e9f8a40346a8a2d121de6318245bcdc5a"
         ),
         .target(
             name: "WaveActivation",
